@@ -1,0 +1,19 @@
+# Sass 
+.sass-cache/
+*.css.map
+
+# Npm
+node_modules 
+
+# Thumbnails
+._*
+
+.DS_Store
+*/.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+.versions

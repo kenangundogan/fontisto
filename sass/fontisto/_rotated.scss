@@ -1,0 +1,11 @@
+// Rotate
+.#{$fi-css-prefix}-r-45  { @include fi-icon-r(45deg, 1);  }
+.#{$fi-css-prefix}-r-90  { @include fi-icon-r(90deg, 1);  }
+.#{$fi-css-prefix}-r-135  { @include fi-icon-r(135deg, 1);  }
+.#{$fi-css-prefix}-r-180 { @include fi-icon-r(180deg, 2); } 
+.#{$fi-css-prefix}-r-225 { @include fi-icon-r(225deg, 2); } 
+.#{$fi-css-prefix}-r-270 { @include fi-icon-r(270deg, 3); }
+.#{$fi-css-prefix}-r-315 { @include fi-icon-r(315deg, 3); }
+
+.#{$fi-css-prefix}-f-horizontal { @include fi-icon-f(-1, 1, 0); }
+.#{$fi-css-prefix}-f-vertical   { @include fi-icon-f(1, -1, 2); }

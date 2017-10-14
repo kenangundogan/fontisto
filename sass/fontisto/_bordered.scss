@@ -1,0 +1,17 @@
+// Bordered
+
+@mixin border {
+    padding: .2em .25em .15em;
+    border: solid .08em $fi-font-border-color;
+}
+
+.#{$fi-css-prefix}-border {
+    @include border();
+    border-radius: .1em;
+}
+
+.#{$fi-css-prefix}-border-circle {
+    @include border();
+    border-radius: 100%;
+}
+

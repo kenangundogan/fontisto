@@ -1,0 +1,37 @@
+{
+  "name": "fontisto",
+  "description": "Fontisto gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.",
+  "license": "MIT",
+  "version": "1.0.14",
+  "homepage":"http://www.fontisto.com",
+  "main": "fontisto/src/sass/fontisto.scss",
+   "author": {
+    "name": "Kenan Gündoğan",
+    "email": "kenangundogann@gmail.com",
+    "url": "http://www.fontisto.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenangundogan/fontisto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenangundogan/fontisto/issues"
+  },
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fontisto",
+    "font",
+    "font-icon",
+    "font-library",
+    "font-icon-libraries",
+    "icon",
+    "icon-font",
+    "icon-font",
+    "icon-pack",
+    "icon-set",
+    "web-font",
+    "web-icons"
+  ]
+}
