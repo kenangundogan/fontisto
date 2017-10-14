@@ -5,7 +5,7 @@ Applies to all CSS and SCSS files in the following directories: fontisto/css/, a
 1. License: MIT License
 2. Url: http://opensource.org/licenses/mit-license.html
 Documentation License
-Applies to all Font Awesome project files that are not a part of the Font or Code licenses.
+Applies to all Fontisto project files that are not a part of the Font or Code licenses.
 1. License: CC BY 3.0
 2. Url: http://creativecommons.org/licenses/by/3.0
 Font License
