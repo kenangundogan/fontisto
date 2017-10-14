@@ -16,7 +16,6 @@
     <a href="https://www.npmjs.org/package/fontisto">
       <img src="https://img.shields.io/npm/v/fontisto.svg?style=flat" alt="npm">
     </a>
-    <span>[![Build Status](https://travis-ci.org/kenangundogan/fontisto.svg?branch=master)](https://travis-ci.org/kenangundogan/fontisto)</span>  
   </p>
 </p>
 
@@ -44,6 +43,7 @@ Get started at http://fontisto.com
 
 
 ## Quick start
+[![Build Status](https://travis-ci.org/kenangundogan/fontisto.svg?branch=master)](https://travis-ci.org/kenangundogan/fontisto) 
 - [Download the latest release.](http://fontisto.com/fontisto-compiled.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/fontisto.git`
 - Install with [npm](https://www.npmjs.com/package/fontisto): `npm install fontisto`
