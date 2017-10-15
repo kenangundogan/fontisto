@@ -29,6 +29,21 @@ Stay up to date with the latest release and announcements on Twitter:
 Get started at http://fontisto.com
 
 
+## Quick start
+[![Build Status](https://travis-ci.org/kenangundogan/fontisto.svg?branch=master)](https://travis-ci.org/kenangundogan/fontisto) 
+- [Download the latest release.](http://fontisto.com/fontisto-compiled.zip)
+- Clone the repo: `git clone https://github.com/kenangundogan/fontisto.git`
+- Install with [npm](https://www.npmjs.com/package/fontisto): `npm install fontisto`
+- Install with [bower](https://bower.io): `bower install fontisto`
+- Install with [yarn](https://yarnpkg.com/en/package/fontisto): `yarn add fontisto`
+
+
+## Versioning
+Flexible Grid will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
+```
+<major>.<minor>.<patch>
+```
+
 ## License
 
 - The Fontisto font is licensed under the SIL OFL 1.1:
@@ -40,15 +55,6 @@ Get started at http://fontisto.com
 - Attribution is no longer required as of Fontisto 3.0, but much appreciated:
   - `Fontisto by Kenan Gündoğan - http://fontisto.com`
 - Full details: http://fontisto.com/license
-
-
-## Quick start
-[![Build Status](https://travis-ci.org/kenangundogan/fontisto.svg?branch=master)](https://travis-ci.org/kenangundogan/fontisto) 
-- [Download the latest release.](http://fontisto.com/fontisto-compiled.zip)
-- Clone the repo: `git clone https://github.com/kenangundogan/fontisto.git`
-- Install with [npm](https://www.npmjs.com/package/fontisto): `npm install fontisto`
-- Install with [bower](https://bower.io): `bower install fontisto`
-- Install with [yarn](https://yarnpkg.com/en/package/fontisto): `yarn add fontisto`
 
 
 ## Copyright and license
