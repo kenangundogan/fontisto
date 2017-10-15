@@ -15,15 +15,5 @@
     "support": {
         "issues": "https://github.com/kenangundogan/fontisto/issues",
         "source": "https://github.com/kenangundogan/fontisto"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
-        "psr-0": {
-            "fontisto": ""
-        }
-    },
-    "require": {
-        "kenangundogan/fontisto": "dev-master"
     }
 }
