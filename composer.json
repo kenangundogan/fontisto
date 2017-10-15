@@ -18,6 +18,11 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "fontisto": ""
+        }
+    },
     "require": {
         "kenangundogan/fontisto": "dev-master"
     }
