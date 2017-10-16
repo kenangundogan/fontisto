@@ -6,7 +6,7 @@
   </a>
   
   <p align="center">
-    Fontisto gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
+   Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of CSS.
     <br>
     <a href="http://www.fontisto.com/get-started"><strong>Fontisto get-started</strong></a> &middot;
     <a href="http://fontisto.com/examples"><strong>Fontisto example</strong></a> &middot;
