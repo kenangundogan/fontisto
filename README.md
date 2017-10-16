@@ -36,6 +36,7 @@ Get started at http://fontisto.com
 - Install with [npm](https://www.npmjs.com/package/fontisto): `npm install fontisto`
 - Install with [bower](https://bower.io): `bower install fontisto`
 - Install with [yarn](https://yarnpkg.com/en/package/fontisto): `yarn add fontisto`
+- Install with [composer](https://packagist.org/packages/kenangundogan/fontisto): `composer add fontisto`
 
 
 ## Versioning
