@@ -30,13 +30,18 @@ Get started at http://fontisto.com
 
 
 ## Quick start
-[![Build Status](https://travis-ci.org/kenangundogan/fontisto.svg?branch=master)](https://travis-ci.org/kenangundogan/fontisto) 
+[![Build Status](https://travis-ci.org/kenangundogan/fontisto.svg?branch=master)](https://travis-ci.org/kenangundogan/fontisto)
+[![npm version](https://badge.fury.io/js/fontisto.svg)](https://badge.fury.io/js/fontisto)
+[![PHP version](https://badge.fury.io/ph/kenangundogan%2Ffontisto.svg)](https://badge.fury.io/ph/kenangundogan%2Ffontisto)
+[![Meteor Atmosphere](https://img.shields.io/badge/meteor-kenangundogan/fontisto-blue.svg)](https://atmospherejs.com/kenangundogan/fontisto)
+
 - [Download the latest release.](http://fontisto.com/fontisto-compiled.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/fontisto.git`
 - Install with [npm](https://www.npmjs.com/package/fontisto): `npm install fontisto`
 - Install with [bower](https://bower.io): `bower install fontisto`
 - Install with [yarn](https://yarnpkg.com/en/package/fontisto): `yarn add fontisto`
-- Install with [composer](https://packagist.org/packages/kenangundogan/fontisto): `composer add fontisto`
+- Install with [composer](https://packagist.org/packages/kenangundogan/fontisto): `composer require kenangundogan/fontisto`
+- Install with [meteor](https://atmospherejs.com/kenangundogan/fontisto): `meteor add kenangundogan:fontisto`
 
 
 ## Versioning
