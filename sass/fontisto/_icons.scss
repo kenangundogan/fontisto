@@ -1,811 +1,271 @@
-
-.fi-curve:before {
-  content: "\ea0b";
-}
-.fi-ellipse:before {
-  content: "\ea0c";
-}
-.fi-rectangle:before {
-  content: "\ea0d";
-}
-.fi-shield:before {
-  content: "\ea0a";
-}
-.fi-audio-description:before {
-  content: "\e900";
-}
-.fi-blind:before {
-  content: "\e901";
-}
-.fi-braille:before {
-  content: "\e902";
-}
-.fi-deaf:before {
-  content: "\e903";
-}
-.fi-fa-american-sign-language-interpreting:before {
-  content: "\e904";
-}
-.fi-if_question-circle_383085:before {
-  content: "\e905";
-}
-.fi-low-vision:before {
-  content: "\e906";
-}
-.fi-tty:before {
-  content: "\e907";
-}
-.fi-universal-acces:before {
-  content: "\e908";
-}
-.fi-wheelchair:before {
-  content: "\e909";
-}
-.fi-500px:before {
-  content: "\e90a";
-}
-.fi-amazon:before {
-  content: "\e90b";
-}
-.fi-ampproject:before {
-  content: "\e90c";
-}
-.fi-android:before {
-  content: "\e90d";
-}
-.fi-angularjs:before {
-  content: "\e90e";
-}
-.fi-apple:before {
-  content: "\e90f";
-}
-.fi-behance:before {
-  content: "\e910";
-}
-.fi-bitbucket:before {
-  content: "\e911";
-}
-.fi-bluetooth-b:before {
-  content: "\e912";
-}
-.fi-cloudflare:before {
-  content: "\e913";
-}
-.fi-codepen:before {
-  content: "\e914";
-}
-.fi-css3:before {
-  content: "\e915";
-}
-.fi-dribbble:before {
-  content: "\e916";
-}
-.fi-dropbox:before {
-  content: "\e917";
-}
-.fi-facebook:before {
-  content: "\e918";
-}
-.fi-flickr:before {
-  content: "\e919";
-}
-.fi-foursquare:before {
-  content: "\e91a";
-}
-.fi-git:before {
-  content: "\e91b";
-}
-.fi-github:before {
-  content: "\e91c";
-}
-.fi-google-plus:before {
-  content: "\e91d";
-}
-.fi-google:before {
-  content: "\e91e";
-}
-.fi-hangout:before {
-  content: "\e91f";
-}
-.fi-houzz:before {
-  content: "\e920";
-}
-.fi-html5:before {
-  content: "\e921";
-}
-.fi-instagram:before {
-  content: "\e922";
-}
-.fi-java:before {
-  content: "\e923";
-}
-.fi-jquery:before {
-  content: "\e924";
-}
-.fi-jsfiddle:before {
-  content: "\e925";
-}
-.fi-linkedin:before {
-  content: "\e926";
-}
-.fi-linux:before {
-  content: "\e927";
-}
-.fi-magento:before {
-  content: "\e928";
-}
-.fi-maxcdn:before {
-  content: "\e929";
-}
-.fi-medium:before {
-  content: "\e92a";
-}
-.fi-meetup:before {
-  content: "\e92b";
-}
-.fi-nodejs:before {
-  content: "\e92c";
-}
-.fi-opencart:before {
-  content: "\e92d";
-}
-.fi-pinterest:before {
-  content: "\e92e";
-}
-.fi-playstation:before {
-  content: "\e92f";
-}
-.fi-python:before {
-  content: "\e930";
-}
-.fi-react:before {
-  content: "\e931";
-}
-.fi-reddit:before {
-  content: "\e932";
-}
-.fi-ruby:before {
-  content: "\e933";
-}
-.fi-sass:before {
-  content: "\e934";
-}
-.fi-skype:before {
-  content: "\e935";
-}
-.fi-slack:before {
-  content: "\e936";
-}
-.fi-snapchat:before {
-  content: "\e937";
-}
-.fi-soundcloud:before {
-  content: "\e938";
-}
-.fi-spotify:before {
-  content: "\e939";
-}
-.fi-stack-overflow:before {
-  content: "\e93a";
-}
-.fi-steam:before {
-  content: "\e93b";
-}
-.fi-stumbleupon:before {
-  content: "\e93c";
-}
-.fi-svn:before {
-  content: "\e93d";
-}
-.fi-swarm:before {
-  content: "\e93e";
-}
-.fi-tripadvisor:before {
-  content: "\e93f";
-}
-.fi-tumblr:before {
-  content: "\e940";
-}
-.fi-twitch:before {
-  content: "\e941";
-}
-.fi-twitter:before {
-  content: "\e942";
-}
-.fi-vimeo:before {
-  content: "\e943";
-}
-.fi-wetransfer:before {
-  content: "\e944";
-}
-.fi-whatsapp:before {
-  content: "\e945";
-}
-.fi-wifi-logo:before {
-  content: "\e946";
-}
-.fi-wikipedia:before {
-  content: "\e947";
-}
-.fi-windows:before {
-  content: "\e948";
-}
-.fi-wordpress:before {
-  content: "\e949";
-}
-.fi-xbox:before {
-  content: "\e94a";
-}
-.fi-yahoo:before {
-  content: "\e94b";
-}
-.fi-yelp:before {
-  content: "\e94c";
-}
-.fi-youtube-play:before {
-  content: "\e94d";
-}
-.fi-chrome:before {
-  content: "\e94e";
-}
-.fi-edge:before {
-  content: "\e94f";
-}
-.fi-firefox:before {
-  content: "\e950";
-}
-.fi-internet-explorer:before {
-  content: "\e951";
-}
-.fi-opera:before {
-  content: "\e952";
-}
-.fi-safari:before {
-  content: "\e953";
-}
-.fi-area-chart:before {
-  content: "\e954";
-}
-.fi-bar-chart:before {
-  content: "\e955";
-}
-.fi-line-chart:before {
-  content: "\e956";
-}
-.fi-pie-chart-1:before {
-  content: "\e957";
-}
-.fi-pie-chart-2:before {
-  content: "\e958";
-}
-.fi-bitcoin:before {
-  content: "\e959";
-}
-.fi-dollar:before {
-  content: "\e95a";
-}
-.fi-euro:before {
-  content: "\e95b";
-}
-.fi-gbp:before {
-  content: "\e95c";
-}
-.fi-gg:before {
-  content: "\e95d";
-}
-.fi-ils:before {
-  content: "\e95e";
-}
-.fi-inr:before {
-  content: "\e95f";
-}
-.fi-krw:before {
-  content: "\e960";
-}
-.fi-rouble:before {
-  content: "\e961";
-}
-.fi-tl:before {
-  content: "\e962";
-}
-.fi-yen:before {
-  content: "\e963";
-}
-.fi-angle-dobule-down:before {
-  content: "\e964";
-}
-.fi-angle-dobule-left:before {
-  content: "\e965";
-}
-.fi-angle-dobule-right:before {
-  content: "\e966";
-}
-.fi-angle-dobule-up:before {
-  content: "\e967";
-}
-.fi-angle-down:before {
-  content: "\e968";
-}
-.fi-angle-left:before {
-  content: "\e969";
-}
-.fi-angle-right:before {
-  content: "\e96a";
-}
-.fi-angle-up:before {
-  content: "\e96b";
-}
-.fi-arrow-down-l:before {
-  content: "\e96c";
-}
-.fi-arrow-down:before {
-  content: "\e96d";
-}
-.fi-arrow-expand:before {
-  content: "\e96e";
-}
-.fi-arrow-h:before {
-  content: "\e96f";
-}
-.fi-arrow-left-l:before {
-  content: "\e970";
-}
-.fi-arrow-left:before {
-  content: "\e971";
-}
-.fi-arrow-move:before {
-  content: "\e972";
-}
-.fi-arrow-resize:before {
-  content: "\e973";
-}
-.fi-arrow-return-left:before {
-  content: "\e974";
-}
-.fi-arrow-return-right:before {
-  content: "\e975";
-}
-.fi-arrow-right-l:before {
-  content: "\e976";
-}
-.fi-arrow-right:before {
-  content: "\e977";
-}
-.fi-arrow-swap:before {
-  content: "\e978";
-}
-.fi-arrow-up-l:before {
-  content: "\e979";
-}
-.fi-arrow-up:before {
-  content: "\e97a";
-}
-.fi-arrow-v:before {
-  content: "\e97b";
-}
-.fi-caret-down:before {
-  content: "\e97c";
-}
-.fi-caret-left:before {
-  content: "\e97d";
-}
-.fi-caret-right:before {
-  content: "\e97e";
-}
-.fi-caret-up:before {
-  content: "\e97f";
-}
-.fi-fi:before {
-  content: "\e980";
-}
-.fi-fontisto:before {
-  content: "\e981";
-}
-.fi-checkbox-active:before {
-  content: "\e982";
-}
-.fi-checkbox-passive:before {
-  content: "\e983";
-}
-.fi-radio-btn-active:before {
-  content: "\e984";
-}
-.fi-radio-btn-passive:before {
-  content: "\e985";
-}
-.fi-genderless:before {
-  content: "\e986";
-}
-.fi-intersex:before {
-  content: "\e987";
-}
-.fi-mars-double:before {
-  content: "\e988";
-}
-.fi-mars-stroke-h:before {
-  content: "\e989";
-}
-.fi-mars-stroke-v:before {
-  content: "\e98a";
-}
-.fi-mars-stroke:before {
-  content: "\e98b";
-}
-.fi-mars:before {
-  content: "\e98c";
-}
-.fi-mercury:before {
-  content: "\e98d";
-}
-.fi-neuter:before {
-  content: "\e98e";
-}
-.fi-transgender-alt:before {
-  content: "\e98f";
-}
-.fi-transgender:before {
-  content: "\e990";
-}
-.fi-venus-double:before {
-  content: "\e991";
-}
-.fi-venus-mars:before {
-  content: "\e992";
-}
-.fi-venus:before {
-  content: "\e993";
-}
-.fi-dislike:before {
-  content: "\e994";
-}
-.fi-like:before {
-  content: "\e995";
-}
-.fi-camera:before {
-  content: "\e996";
-}
-.fi-clock:before {
-  content: "\e997";
-}
-.fi-close-a:before {
-  content: "\e998";
-}
-.fi-code:before {
-  content: "\e999";
-}
-.fi-comment:before {
-  content: "\e99a";
-}
-.fi-commenting:before {
-  content: "\e99b";
-}
-.fi-comments:before {
-  content: "\e99c";
-}
-.fi-crop:before {
-  content: "\e99d";
-}
-.fi-cursor:before {
-  content: "\e99e";
-}
-.fi-database:before {
-  content: "\e99f";
-}
-.fi-date:before {
-  content: "\e9a0";
-}
-.fi-earth:before {
-  content: "\e9a1";
-}
-.fi-email:before {
-  content: "\e9a2";
-}
-.fi-eye:before {
-  content: "\e9a3";
-}
-.fi-famale:before {
-  content: "\e9a4";
-}
-.fi-favorite:before {
-  content: "\e9a5";
-}
-.fi-filter:before {
-  content: "\e9a6";
-}
-.fi-fire:before {
-  content: "\e9a7";
-}
-.fi-flag:before {
-  content: "\e9a8";
-}
-.fi-flash:before {
-  content: "\e9a9";
-}
-.fi-home:before {
-  content: "\e9aa";
-}
-.fi-link:before {
-  content: "\e9ab";
-}
-.fi-locked:before {
-  content: "\e9ac";
-}
-.fi-male:before {
-  content: "\e9ad";
-}
-.fi-minus-a:before {
-  content: "\e9ae";
-}
-.fi-more-v-a:before {
-  content: "\e9af";
-}
-.fi-more-v:before {
-  content: "\e9b0";
-}
-.fi-move-h-a:before {
-  content: "\e9b1";
-}
-.fi-move-h:before {
-  content: "\e9b2";
-}
-.fi-nav-icon-a:before {
-  content: "\e9b3";
-}
-.fi-nav-icon-grid-a:before {
-  content: "\e9b4";
-}
-.fi-nav-icon-grid:before {
-  content: "\e9b5";
-}
-.fi-nav-icon-list-a:before {
-  content: "\e9b6";
-}
-.fi-nav-icon-list:before {
-  content: "\e9b7";
-}
-.fi-nav-icon:before {
-  content: "\e9b8";
-}
-.fi-navigate:before {
-  content: "\e9b9";
-}
-.fi-paper-plane:before {
-  content: "\e9ba";
-}
-.fi-person:before {
-  content: "\e9bb";
-}
-.fi-persons:before {
-  content: "\e9bc";
-}
-.fi-picture:before {
-  content: "\e9bd";
-}
-.fi-plus-a:before {
-  content: "\e9be";
-}
-.fi-print:before {
-  content: "\e9bf";
-}
-.fi-quote-a-left:before {
-  content: "\e9c0";
-}
-.fi-quote-a-right:before {
-  content: "\e9c1";
-}
-.fi-quote-left:before {
-  content: "\e9c2";
-}
-.fi-quote-right:before {
-  content: "\e9c3";
-}
-.fi-reply:before {
-  content: "\e9c4";
-}
-.fi-rss:before {
-  content: "\e9c5";
-}
-.fi-scissors:before {
-  content: "\e9c6";
-}
-.fi-share-a:before {
-  content: "\e9c7";
-}
-.fi-share:before {
-  content: "\e9c8";
-}
-.fi-trash:before {
-  content: "\e9c9";
-}
-.fi-unlocked:before {
-  content: "\e9ca";
-}
-.fi-usb:before {
-  content: "\e9cb";
-}
-.fi-wifi:before {
-  content: "\e9cc";
-}
-.fi-world-o:before {
-  content: "\e9cd";
-}
-.fi-world:before {
-  content: "\e9ce";
-}
-.fi-zoom:before {
-  content: "\e9cf";
-}
-.fi-american-express:before {
-  content: "\e9d0";
-}
-.fi-credit-card:before {
-  content: "\e9d1";
-}
-.fi-google-wallet:before {
-  content: "\e9d2";
-}
-.fi-iyzigo:before {
-  content: "\e9d3";
-}
-.fi-mastercard:before {
-  content: "\e9d4";
-}
-.fi-paypal-p:before {
-  content: "\e9d5";
-}
-.fi-paypal:before {
-  content: "\e9d6";
-}
-.fi-payu:before {
-  content: "\e9d7";
-}
-.fi-troy:before {
-  content: "\e9d8";
-}
-.fi-visa:before {
-  content: "\e9d9";
-}
-.fi-backward:before {
-  content: "\e9da";
-}
-.fi-eject:before {
-  content: "\e9db";
-}
-.fi-equalizer:before {
-  content: "\e9dc";
-}
-.fi-forward:before {
-  content: "\e9dd";
-}
-.fi-headphone:before {
-  content: "\e9de";
-}
-.fi-heart:before {
-  content: "\e9df";
-}
-.fi-mic:before {
-  content: "\e9e0";
-}
-.fi-music-note:before {
-  content: "\e9e1";
-}
-.fi-pause:before {
-  content: "\e9e2";
-}
-.fi-play-list:before {
-  content: "\e9e3";
-}
-.fi-play:before {
-  content: "\e9e4";
-}
-.fi-player-settings:before {
-  content: "\e9e5";
-}
-.fi-podcast:before {
-  content: "\e9e6";
-}
-.fi-random:before {
-  content: "\e9e7";
-}
-.fi-record:before {
-  content: "\e9e8";
-}
-.fi-star:before {
-  content: "\e9e9";
-}
-.fi-step-backwrad:before {
-  content: "\e9ea";
-}
-.fi-step-forward:before {
-  content: "\e9eb";
-}
-.fi-stop:before {
-  content: "\e9ec";
-}
-.fi-volume-down:before {
-  content: "\e9ed";
-}
-.fi-volume-mute:before {
-  content: "\e9ee";
-}
-.fi-volume-off:before {
-  content: "\e9ef";
-}
-.fi-volume-up:before {
-  content: "\e9f0";
-}
-.fi-circle-o-notch:before {
-  content: "\e9f1";
-}
-.fi-propeller-1:before {
-  content: "\e9f2";
-}
-.fi-propeller-2:before {
-  content: "\e9f3";
-}
-.fi-propeller-3:before {
-  content: "\e9f4";
-}
-.fi-propeller-4:before {
-  content: "\e9f5";
-}
-.fi-spinner-cog:before {
-  content: "\e9f6";
-}
-.fi-spinner-fidget:before {
-  content: "\e9f7";
-}
-.fi-spinner-refresh:before {
-  content: "\e9f8";
-}
-.fi-spinner-rotate-forward:before {
-  content: "\e9f9";
-}
-.fi-spinner:before {
-  content: "\e9fa";
-}
-.fi-automobile:before {
-  content: "\e9fb";
-}
-.fi-bicycle:before {
-  content: "\e9fc";
-}
-.fi-bus:before {
-  content: "\e9fd";
-}
-.fi-car:before {
-  content: "\e9fe";
-}
-.fi-helicopter:before {
-  content: "\e9ff";
-}
-.fi-metro:before {
-  content: "\ea00";
-}
-.fi-motorcycle:before {
-  content: "\ea01";
-}
-.fi-plane:before {
-  content: "\ea02";
-}
-.fi-rocket:before {
-  content: "\ea03";
-}
-.fi-ship:before {
-  content: "\ea04";
-}
-.fi-subway:before {
-  content: "\ea05";
-}
-.fi-taxi:before {
-  content: "\ea06";
-}
-.fi-train:before {
-  content: "\ea07";
-}
-.fi-truck:before {
-  content: "\ea08";
-}
-.fi-yacht:before {
-  content: "\ea09";
-}
+/* fontisto icon list*/
+.#{$fi-css-prefix}-curve:before {content: unicode($fi-curve);}
+.#{$fi-css-prefix}-ellipse:before {content: unicode($fi-ellipse);}
+.#{$fi-css-prefix}-rectangle:before {content: unicode($fi-rectangle);}
+.#{$fi-css-prefix}-shield:before {content: unicode($fi-shield);}
+.#{$fi-css-prefix}-audio-description:before {content: unicode($fi-audio-description);}
+.#{$fi-css-prefix}-blind:before {content: unicode($fi-blind);}
+.#{$fi-css-prefix}-braille:before {content: unicode($fi-braille);}
+.#{$fi-css-prefix}-deaf:before {content: unicode($fi-deaf);}
+.#{$fi-css-prefix}-fa-american-sign-language-interpreting:before {content: unicode($fi-fa-american-sign-language-interpreting);}
+.#{$fi-css-prefix}-if_question-circle_383085:before {content: unicode($fi-if_question-circle_383085);}
+.#{$fi-css-prefix}-low-vision:before {content: unicode($fi-low-vision);}
+.#{$fi-css-prefix}-tty:before {content: unicode($fi-tty);}
+.#{$fi-css-prefix}-universal-acces:before {content: unicode($fi-universal-acces);}
+.#{$fi-css-prefix}-wheelchair:before {content: unicode($fi-wheelchair);}
+.#{$fi-css-prefix}-500px:before {content: unicode($fi-500px);}
+.#{$fi-css-prefix}-amazon:before {content: unicode($fi-amazon);}
+.#{$fi-css-prefix}-ampproject:before {content: unicode($fi-ampproject);}
+.#{$fi-css-prefix}-android:before {content: unicode($fi-android);}
+.#{$fi-css-prefix}-angularjs:before {content: unicode($fi-angularjs);}
+.#{$fi-css-prefix}-apple:before {content: unicode($fi-apple);}
+.#{$fi-css-prefix}-behance:before {content: unicode($fi-behance);}
+.#{$fi-css-prefix}-bitbucket:before {content: unicode($fi-bitbucket);}
+.#{$fi-css-prefix}-bluetooth-b:before {content: unicode($fi-bluetooth-b);}
+.#{$fi-css-prefix}-cloudflare:before {content: unicode($fi-cloudflare);}
+.#{$fi-css-prefix}-codepen:before {content: unicode($fi-codepen);}
+.#{$fi-css-prefix}-css3:before {content: unicode($fi-css3);}
+.#{$fi-css-prefix}-dribbble:before {content: unicode($fi-dribbble);}
+.#{$fi-css-prefix}-dropbox:before {content: unicode($fi-dropbox);}
+.#{$fi-css-prefix}-facebook:before {content: unicode($fi-facebook);}
+.#{$fi-css-prefix}-flickr:before {content: unicode($fi-flickr);}
+.#{$fi-css-prefix}-foursquare:before {content: unicode($fi-foursquare);}
+.#{$fi-css-prefix}-git:before {content: unicode($fi-git);}
+.#{$fi-css-prefix}-github:before {content: unicode($fi-github);}
+.#{$fi-css-prefix}-google-plus:before {content: unicode($fi-google-plus);}
+.#{$fi-css-prefix}-google:before {content: unicode($fi-google);}
+.#{$fi-css-prefix}-hangout:before {content: unicode($fi-hangout);}
+.#{$fi-css-prefix}-houzz:before {content: unicode($fi-houzz);}
+.#{$fi-css-prefix}-html5:before {content: unicode($fi-html5);}
+.#{$fi-css-prefix}-instagram:before {content: unicode($fi-instagram);}
+.#{$fi-css-prefix}-java:before {content: unicode($fi-java);}
+.#{$fi-css-prefix}-jquery:before {content: unicode($fi-jquery);}
+.#{$fi-css-prefix}-jsfiddle:before {content: unicode($fi-jsfiddle);}
+.#{$fi-css-prefix}-linkedin:before {content: unicode($fi-linkedin);}
+.#{$fi-css-prefix}-linux:before {content: unicode($fi-linux);}
+.#{$fi-css-prefix}-magento:before {content: unicode($fi-magento);}
+.#{$fi-css-prefix}-maxcdn:before {content: unicode($fi-maxcdn);}
+.#{$fi-css-prefix}-medium:before {content: unicode($fi-medium);}
+.#{$fi-css-prefix}-meetup:before {content: unicode($fi-meetup);}
+.#{$fi-css-prefix}-nodejs:before {content: unicode($fi-nodejs);}
+.#{$fi-css-prefix}-opencart:before {content: unicode($fi-opencart);}
+.#{$fi-css-prefix}-pinterest:before {content: unicode($fi-pinterest);}
+.#{$fi-css-prefix}-playstation:before {content: unicode($fi-playstation);}
+.#{$fi-css-prefix}-python:before {content: unicode($fi-python);}
+.#{$fi-css-prefix}-react:before {content: unicode($fi-react);}
+.#{$fi-css-prefix}-reddit:before {content: unicode($fi-reddit);}
+.#{$fi-css-prefix}-ruby:before {content: unicode($fi-ruby);}
+.#{$fi-css-prefix}-sass:before {content: unicode($fi-sass);}
+.#{$fi-css-prefix}-skype:before {content: unicode($fi-skype);}
+.#{$fi-css-prefix}-slack:before {content: unicode($fi-slack);}
+.#{$fi-css-prefix}-snapchat:before {content: unicode($fi-snapchat);}
+.#{$fi-css-prefix}-soundcloud:before {content: unicode($fi-soundcloud);}
+.#{$fi-css-prefix}-spotify:before {content: unicode($fi-spotify);}
+.#{$fi-css-prefix}-stack-overflow:before {content: unicode($fi-stack-overflow);}
+.#{$fi-css-prefix}-steam:before {content: unicode($fi-steam);}
+.#{$fi-css-prefix}-stumbleupon:before {content: unicode($fi-stumbleupon);}
+.#{$fi-css-prefix}-svn:before {content: unicode($fi-svn);}
+.#{$fi-css-prefix}-swarm:before {content: unicode($fi-swarm);}
+.#{$fi-css-prefix}-tripadvisor:before {content: unicode($fi-tripadvisor);}
+.#{$fi-css-prefix}-tumblr:before {content: unicode($fi-tumblr);}
+.#{$fi-css-prefix}-twitch:before {content: unicode($fi-twitch);}
+.#{$fi-css-prefix}-twitter:before {content: unicode($fi-twitter);}
+.#{$fi-css-prefix}-vimeo:before {content: unicode($fi-vimeo);}
+.#{$fi-css-prefix}-wetransfer:before {content: unicode($fi-wetransfer);}
+.#{$fi-css-prefix}-whatsapp:before {content: unicode($fi-whatsapp);}
+.#{$fi-css-prefix}-wifi-logo:before {content: unicode($fi-wifi-logo);}
+.#{$fi-css-prefix}-wikipedia:before {content: unicode($fi-wikipedia);}
+.#{$fi-css-prefix}-windows:before {content: unicode($fi-windows);}
+.#{$fi-css-prefix}-wordpress:before {content: unicode($fi-wordpress);}
+.#{$fi-css-prefix}-xbox:before {content: unicode($fi-xbox);}
+.#{$fi-css-prefix}-yahoo:before {content: unicode($fi-yahoo);}
+.#{$fi-css-prefix}-yelp:before {content: unicode($fi-yelp);}
+.#{$fi-css-prefix}-youtube-play:before {content: unicode($fi-youtube-play);}
+.#{$fi-css-prefix}-chrome:before {content: unicode($fi-chrome);}
+.#{$fi-css-prefix}-edge:before {content: unicode($fi-edge);}
+.#{$fi-css-prefix}-firefox:before {content: unicode($fi-firefox);}
+.#{$fi-css-prefix}-internet-explorer:before {content: unicode($fi-internet-explorer);}
+.#{$fi-css-prefix}-opera:before {content: unicode($fi-opera);}
+.#{$fi-css-prefix}-safari:before {content: unicode($fi-safari);}
+.#{$fi-css-prefix}-area-chart:before {content: unicode($fi-area-chart);}
+.#{$fi-css-prefix}-bar-chart:before {content: unicode($fi-bar-chart);}
+.#{$fi-css-prefix}-line-chart:before {content: unicode($fi-line-chart);}
+.#{$fi-css-prefix}-pie-chart-1:before {content: unicode($fi-pie-chart-1);}
+.#{$fi-css-prefix}-pie-chart-2:before {content: unicode($fi-pie-chart-2);}
+.#{$fi-css-prefix}-bitcoin:before {content: unicode($fi-bitcoin);}
+.#{$fi-css-prefix}-dollar:before {content: unicode($fi-dollar);}
+.#{$fi-css-prefix}-euro:before {content: unicode($fi-euro);}
+.#{$fi-css-prefix}-gbp:before {content: unicode($fi-gbp);}
+.#{$fi-css-prefix}-gg:before {content: unicode($fi-gg);}
+.#{$fi-css-prefix}-ils:before {content: unicode($fi-ils);}
+.#{$fi-css-prefix}-inr:before {content: unicode($fi-inr);}
+.#{$fi-css-prefix}-krw:before {content: unicode($fi-krw);}
+.#{$fi-css-prefix}-rouble:before {content: unicode($fi-rouble);}
+.#{$fi-css-prefix}-tl:before {content: unicode($fi-tl);}
+.#{$fi-css-prefix}-yen:before {content: unicode($fi-yen);}
+.#{$fi-css-prefix}-angle-dobule-down:before {content: unicode($fi-angle-dobule-down);}
+.#{$fi-css-prefix}-angle-dobule-left:before {content: unicode($fi-angle-dobule-left);}
+.#{$fi-css-prefix}-angle-dobule-right:before {content: unicode($fi-angle-dobule-right);}
+.#{$fi-css-prefix}-angle-dobule-up:before {content: unicode($fi-angle-dobule-up);}
+.#{$fi-css-prefix}-angle-down:before {content: unicode($fi-angle-down);}
+.#{$fi-css-prefix}-angle-left:before {content: unicode($fi-angle-left);}
+.#{$fi-css-prefix}-angle-right:before {content: unicode($fi-angle-right);}
+.#{$fi-css-prefix}-angle-up:before {content: unicode($fi-angle-up);}
+.#{$fi-css-prefix}-arrow-down-l:before {content: unicode($fi-arrow-down-l);}
+.#{$fi-css-prefix}-arrow-down:before {content: unicode($fi-arrow-down);}
+.#{$fi-css-prefix}-arrow-expand:before {content: unicode($fi-arrow-expand);}
+.#{$fi-css-prefix}-arrow-h:before {content: unicode($fi-arrow-h);}
+.#{$fi-css-prefix}-arrow-left-l:before {content: unicode($fi-arrow-left-l);}
+.#{$fi-css-prefix}-arrow-left:before {content: unicode($fi-arrow-left);}
+.#{$fi-css-prefix}-arrow-move:before {content: unicode($fi-arrow-move);}
+.#{$fi-css-prefix}-arrow-resize:before {content: unicode($fi-arrow-resize);}
+.#{$fi-css-prefix}-arrow-return-left:before {content: unicode($fi-arrow-return-left);}
+.#{$fi-css-prefix}-arrow-return-right:before {content: unicode($fi-arrow-return-right);}
+.#{$fi-css-prefix}-arrow-right-l:before {content: unicode($fi-arrow-right-l);}
+.#{$fi-css-prefix}-arrow-right:before {content: unicode($fi-arrow-right);}
+.#{$fi-css-prefix}-arrow-swap:before {content: unicode($fi-arrow-swap);}
+.#{$fi-css-prefix}-arrow-up-l:before {content: unicode($fi-arrow-up-l);}
+.#{$fi-css-prefix}-arrow-up:before {content: unicode($fi-arrow-up);}
+.#{$fi-css-prefix}-arrow-v:before {content: unicode($fi-arrow-v);}
+.#{$fi-css-prefix}-caret-down:before {content: unicode($fi-caret-down);}
+.#{$fi-css-prefix}-caret-left:before {content: unicode($fi-caret-left);}
+.#{$fi-css-prefix}-caret-right:before {content: unicode($fi-caret-right);}
+.#{$fi-css-prefix}-caret-up:before {content: unicode($fi-caret-up);}
+.#{$fi-css-prefix}-fi:before {content: unicode($fi-fi);}
+.#{$fi-css-prefix}-fontisto:before {content: unicode($fi-fontisto);}
+.#{$fi-css-prefix}-checkbox-active:before {content: unicode($fi-checkbox-active);}
+.#{$fi-css-prefix}-checkbox-passive:before {content: unicode($fi-checkbox-passive);}
+.#{$fi-css-prefix}-radio-btn-active:before {content: unicode($fi-radio-btn-active);}
+.#{$fi-css-prefix}-radio-btn-passive:before {content: unicode($fi-radio-btn-passive);}
+.#{$fi-css-prefix}-genderless:before {content: unicode($fi-genderless);}
+.#{$fi-css-prefix}-intersex:before {content: unicode($fi-intersex);}
+.#{$fi-css-prefix}-mars-double:before {content: unicode($fi-mars-double);}
+.#{$fi-css-prefix}-mars-stroke-h:before {content: unicode($fi-mars-stroke-h);}
+.#{$fi-css-prefix}-mars-stroke-v:before {content: unicode($fi-mars-stroke-v);}
+.#{$fi-css-prefix}-mars-stroke:before {content: unicode($fi-mars-stroke);}
+.#{$fi-css-prefix}-mars:before {content: unicode($fi-mars);}
+.#{$fi-css-prefix}-mercury:before {content: unicode($fi-mercury);}
+.#{$fi-css-prefix}-neuter:before {content: unicode($fi-neuter);}
+.#{$fi-css-prefix}-transgender-alt:before {content: unicode($fi-transgender-alt);}
+.#{$fi-css-prefix}-transgender:before {content: unicode($fi-transgender);}
+.#{$fi-css-prefix}-venus-double:before {content: unicode($fi-venus-double);}
+.#{$fi-css-prefix}-venus-mars:before {content: unicode($fi-venus-mars);}
+.#{$fi-css-prefix}-venus:before {content: unicode($fi-venus);}
+.#{$fi-css-prefix}-dislike:before {content: unicode($fi-dislike);}
+.#{$fi-css-prefix}-like:before {content: unicode($fi-like);}
+.#{$fi-css-prefix}-camera:before {content: unicode($fi-camera);}
+.#{$fi-css-prefix}-clock:before {content: unicode($fi-clock);}
+.#{$fi-css-prefix}-close-a:before {content: unicode($fi-close-a);}
+.#{$fi-css-prefix}-code:before {content: unicode($fi-code);}
+.#{$fi-css-prefix}-comment:before {content: unicode($fi-comment);}
+.#{$fi-css-prefix}-commenting:before {content: unicode($fi-commenting);}
+.#{$fi-css-prefix}-comments:before {content: unicode($fi-comments);}
+.#{$fi-css-prefix}-crop:before {content: unicode($fi-crop);}
+.#{$fi-css-prefix}-cursor:before {content: unicode($fi-cursor);}
+.#{$fi-css-prefix}-database:before {content: unicode($fi-database);}
+.#{$fi-css-prefix}-date:before {content: unicode($fi-date);}
+.#{$fi-css-prefix}-earth:before {content: unicode($fi-earth);}
+.#{$fi-css-prefix}-email:before {content: unicode($fi-email);}
+.#{$fi-css-prefix}-eye:before {content: unicode($fi-eye);}
+.#{$fi-css-prefix}-famale:before {content: unicode($fi-famale);}
+.#{$fi-css-prefix}-favorite:before {content: unicode($fi-favorite);}
+.#{$fi-css-prefix}-filter:before {content: unicode($fi-filter);}
+.#{$fi-css-prefix}-fire:before {content: unicode($fi-fire);}
+.#{$fi-css-prefix}-flag:before {content: unicode($fi-flag);}
+.#{$fi-css-prefix}-flash:before {content: unicode($fi-flash);}
+.#{$fi-css-prefix}-home:before {content: unicode($fi-home);}
+.#{$fi-css-prefix}-link:before {content: unicode($fi-link);}
+.#{$fi-css-prefix}-locked:before {content: unicode($fi-locked);}
+.#{$fi-css-prefix}-male:before {content: unicode($fi-male);}
+.#{$fi-css-prefix}-minus-a:before {content: unicode($fi-minus-a);}
+.#{$fi-css-prefix}-more-v-a:before {content: unicode($fi-more-v-a);}
+.#{$fi-css-prefix}-more-v:before {content: unicode($fi-more-v);}
+.#{$fi-css-prefix}-move-h-a:before {content: unicode($fi-move-h-a);}
+.#{$fi-css-prefix}-move-h:before {content: unicode($fi-move-h);}
+.#{$fi-css-prefix}-nav-icon-a:before {content: unicode($fi-nav-icon-a);}
+.#{$fi-css-prefix}-nav-icon-grid-a:before {content: unicode($fi-nav-icon-grid-a);}
+.#{$fi-css-prefix}-nav-icon-grid:before {content: unicode($fi-nav-icon-grid);}
+.#{$fi-css-prefix}-nav-icon-list-a:before {content: unicode($fi-nav-icon-list-a);}
+.#{$fi-css-prefix}-nav-icon-list:before {content: unicode($fi-nav-icon-list);}
+.#{$fi-css-prefix}-nav-icon:before {content: unicode($fi-nav-icon);}
+.#{$fi-css-prefix}-navigate:before {content: unicode($fi-navigate);}
+.#{$fi-css-prefix}-paper-plane:before {content: unicode($fi-paper-plane);}
+.#{$fi-css-prefix}-person:before {content: unicode($fi-person);}
+.#{$fi-css-prefix}-persons:before {content: unicode($fi-persons);}
+.#{$fi-css-prefix}-picture:before {content: unicode($fi-picture);}
+.#{$fi-css-prefix}-plus-a:before {content: unicode($fi-plus-a);}
+.#{$fi-css-prefix}-print:before {content: unicode($fi-print);}
+.#{$fi-css-prefix}-quote-a-left:before {content: unicode($fi-quote-a-left);}
+.#{$fi-css-prefix}-quote-a-right:before {content: unicode($fi-quote-a-right);}
+.#{$fi-css-prefix}-quote-left:before {content: unicode($fi-quote-left);}
+.#{$fi-css-prefix}-quote-right:before {content: unicode($fi-quote-right);}
+.#{$fi-css-prefix}-reply:before {content: unicode($fi-reply);}
+.#{$fi-css-prefix}-rss:before {content: unicode($fi-rss);}
+.#{$fi-css-prefix}-scissors:before {content: unicode($fi-scissors);}
+.#{$fi-css-prefix}-share-a:before {content: unicode($fi-share-a);}
+.#{$fi-css-prefix}-share:before {content: unicode($fi-share);}
+.#{$fi-css-prefix}-trash:before {content: unicode($fi-trash);}
+.#{$fi-css-prefix}-unlocked:before {content: unicode($fi-unlocked);}
+.#{$fi-css-prefix}-usb:before {content: unicode($fi-usb);}
+.#{$fi-css-prefix}-wifi:before {content: unicode($fi-wifi);}
+.#{$fi-css-prefix}-world-o:before {content: unicode($fi-world-o);}
+.#{$fi-css-prefix}-world:before {content: unicode($fi-world);}
+.#{$fi-css-prefix}-zoom:before {content: unicode($fi-zoom);}
+.#{$fi-css-prefix}-american-express:before {content: unicode($fi-american-express);}
+.#{$fi-css-prefix}-credit-card:before {content: unicode($fi-credit-card);}
+.#{$fi-css-prefix}-google-wallet:before {content: unicode($fi-google-wallet);}
+.#{$fi-css-prefix}-iyzigo:before {content: unicode($fi-iyzigo);}
+.#{$fi-css-prefix}-mastercard:before {content: unicode($fi-mastercard);}
+.#{$fi-css-prefix}-paypal-p:before {content: unicode($fi-paypal-p);}
+.#{$fi-css-prefix}-paypal:before {content: unicode($fi-paypal);}
+.#{$fi-css-prefix}-payu:before {content: unicode($fi-payu);}
+.#{$fi-css-prefix}-troy:before {content: unicode($fi-troy);}
+.#{$fi-css-prefix}-visa:before {content: unicode($fi-visa);}
+.#{$fi-css-prefix}-backward:before {content: unicode($fi-backward);}
+.#{$fi-css-prefix}-eject:before {content: unicode($fi-eject);}
+.#{$fi-css-prefix}-equalizer:before {content: unicode($fi-equalizer);}
+.#{$fi-css-prefix}-forward:before {content: unicode($fi-forward);}
+.#{$fi-css-prefix}-headphone:before {content: unicode($fi-headphone);}
+.#{$fi-css-prefix}-heart:before {content: unicode($fi-heart);}
+.#{$fi-css-prefix}-mic:before {content: unicode($fi-mic);}
+.#{$fi-css-prefix}-music-note:before {content: unicode($fi-music-note);}
+.#{$fi-css-prefix}-pause:before {content: unicode($fi-pause);}
+.#{$fi-css-prefix}-play-list:before {content: unicode($fi-play-list);}
+.#{$fi-css-prefix}-play:before {content: unicode($fi-play);}
+.#{$fi-css-prefix}-player-settings:before {content: unicode($fi-player-settings);}
+.#{$fi-css-prefix}-podcast:before {content: unicode($fi-podcast);}
+.#{$fi-css-prefix}-random:before {content: unicode($fi-random);}
+.#{$fi-css-prefix}-record:before {content: unicode($fi-record);}
+.#{$fi-css-prefix}-star:before {content: unicode($fi-star);}
+.#{$fi-css-prefix}-step-backwrad:before {content: unicode($fi-step-backwrad);}
+.#{$fi-css-prefix}-step-forward:before {content: unicode($fi-step-forward);}
+.#{$fi-css-prefix}-stop:before {content: unicode($fi-stop);}
+.#{$fi-css-prefix}-volume-down:before {content: unicode($fi-volume-down);}
+.#{$fi-css-prefix}-volume-mute:before {content: unicode($fi-volume-mute);}
+.#{$fi-css-prefix}-volume-off:before {content: unicode($fi-volume-off);}
+.#{$fi-css-prefix}-volume-up:before {content: unicode($fi-volume-up);}
+.#{$fi-css-prefix}-circle-o-notch:before {content: unicode($fi-circle-o-notch);}
+.#{$fi-css-prefix}-propeller-1:before {content: unicode($fi-propeller-1);}
+.#{$fi-css-prefix}-propeller-2:before {content: unicode($fi-propeller-2);}
+.#{$fi-css-prefix}-propeller-3:before {content: unicode($fi-propeller-3);}
+.#{$fi-css-prefix}-propeller-4:before {content: unicode($fi-propeller-4);}
+.#{$fi-css-prefix}-spinner-cog:before {content: unicode($fi-spinner-cog);}
+.#{$fi-css-prefix}-spinner-fidget:before {content: unicode($fi-spinner-fidget);}
+.#{$fi-css-prefix}-spinner-refresh:before {content: unicode($fi-spinner-refresh);}
+.#{$fi-css-prefix}-spinner-rotate-forward:before {content: unicode($fi-spinner-rotate-forward);}
+.#{$fi-css-prefix}-spinner:before {content: unicode($fi-spinner);}
+.#{$fi-css-prefix}-automobile:before {content: unicode($fi-automobile);}
+.#{$fi-css-prefix}-bicycle:before {content: unicode($fi-bicycle);}
+.#{$fi-css-prefix}-bus:before {content: unicode($fi-bus);}
+.#{$fi-css-prefix}-car:before {content: unicode($fi-car);}
+.#{$fi-css-prefix}-helicopter:before {content: unicode($fi-helicopter);}
+.#{$fi-css-prefix}-metro:before {content: unicode($fi-metro);}
+.#{$fi-css-prefix}-motorcycle:before {content: unicode($fi-motorcycle);}
+.#{$fi-css-prefix}-plane:before {content: unicode($fi-plane);}
+.#{$fi-css-prefix}-rocket:before {content: unicode($fi-rocket);}
+.#{$fi-css-prefix}-ship:before {content: unicode($fi-ship);}
+.#{$fi-css-prefix}-subway:before {content: unicode($fi-subway);}
+.#{$fi-css-prefix}-taxi:before {content: unicode($fi-taxi);}
+.#{$fi-css-prefix}-train:before {content: unicode($fi-train);}
+.#{$fi-css-prefix}-truck:before {content: unicode($fi-truck);}
+.#{$fi-css-prefix}-yacht:before {content: unicode($fi-yacht);}

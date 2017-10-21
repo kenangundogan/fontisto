@@ -8,3 +8,18 @@
     url('#{$fi-font-path}fontisto/fontisto.svg?v=#{$fi-font-version}#fontisto') format('svg');
 }
 
+.#{$fi-css-prefix} {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal; 
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: $fi-font-line-height;
+    font-family: $fi-font-name;
+    font-size: $fi-font-size;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+

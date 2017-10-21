@@ -2,6 +2,11 @@
  *  Fontisto 1.0.1 by @kenangundogan - http://fontisto.com - @fontisto
  *  License - http://fontisto.com/license (CSS: MIT License)
  */
+@font-face {
+  font-family: "fontisto";
+  src: url("../../fonts/fontisto/fontisto.eot?v=1");
+  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=1") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=1") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=1") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=1#fontisto") format("svg"); }
+
 .fi {
   display: inline-block;
   font-style: normal;
@@ -16,11 +21,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-@font-face {
-  font-family: "fontisto";
-  src: url("../../fonts/fontisto/fontisto.eot?v=1");
-  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=1") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=1") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=1") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=1#fontisto") format("svg"); }
-
+/* fontisto icon list*/
 .fi-curve:before {
   content: "\ea0b"; }
 
@@ -829,7 +830,7 @@
   content: "\ea08"; }
 
 .fi-yacht:before {
-  content: "\ea09"; }
+  content: "\c"; }
 
 .fi-inverse {
   color: #fff; }
@@ -933,6 +934,16 @@
       left: -2.14286em;
       width: 2.14286em;
       text-align: center; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
 
 .fi-fw {
   width: 1.28571em;
