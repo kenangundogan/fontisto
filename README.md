@@ -11,6 +11,7 @@
     <a href="http://www.fontisto.com/get-started"><strong>Fontisto get-started</strong></a> &middot;
     <a href="http://fontisto.com/examples"><strong>Fontisto example</strong></a> &middot;
     <a href="http://fontisto.com/icons"><strong>Fontisto icons</strong></a>
+    <a href="http://fontisto.com/icons-cheatsheet"><strong>Fontisto cheatsheet</strong></a>
   </p>
   <p align="center">
     <a href="https://www.npmjs.org/package/fontisto">
