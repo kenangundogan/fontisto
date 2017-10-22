@@ -45,6 +45,39 @@ Get started at http://fontisto.com
 - Install with [meteor](https://atmospherejs.com/kenangundogan/fontisto): `meteor add kenangundogan:fontisto`
 
 
+## What's included
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. 
+
+#### Outuput File
+
+```
+	fontisto/
+	├── css/
+		├── fontisto.css
+		├── fontisto.css.map
+		├── fontisto.min.css
+		└── fontisto.min.css.map
+```
+
+#### Source File
+```
+	fontisto/
+	├── sass/
+		├── fontisto.scss
+		├── _variables.scss
+		├── _color.scss
+		├── _font.scss
+		├── _icons.scss
+		├── _animated.scss
+		├── _list.scss 
+		├── _bordered.scss
+		├── _rotated.scss
+		├── _stacked.scss
+		├── _fixed-width.scss
+		└── _screen-readers.scss
+```
+
+
 ## Versioning
 Flexible Grid will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 ```
