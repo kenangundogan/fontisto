@@ -1,4 +1,47 @@
 /* fontisto icon list*/
+
+.#{$fi-css-prefix}-bold:before {content: unicode($fi-bold);} 
+.#{$fi-css-prefix}-broken-link:before {content: unicode($fi-broken-link);} 
+.#{$fi-css-prefix}-center-align:before {content: unicode($fi-center-align);} 
+.#{$fi-css-prefix}-close:before {content: unicode($fi-close);} 
+.#{$fi-css-prefix}-columns:before {content: unicode($fi-columns);} 
+.#{$fi-css-prefix}-copy:before {content: unicode($fi-copy);} 
+.#{$fi-css-prefix}-eraser:before {content: unicode($fi-eraser);} 
+.#{$fi-css-prefix}-export:before {content: unicode($fi-export);} 
+.#{$fi-css-prefix}-file-1:before {content: unicode($fi-file-1);} 
+.#{$fi-css-prefix}-file-2:before {content: unicode($fi-file-2);} 
+.#{$fi-css-prefix}-folder:before {content: unicode($fi-folder);} 
+.#{$fi-css-prefix}-font:before {content: unicode($fi-font);} 
+.#{$fi-css-prefix}-import:before {content: unicode($fi-import);} 
+.#{$fi-css-prefix}-indent:before {content: unicode($fi-indent);} 
+.#{$fi-css-prefix}-italic:before {content: unicode($fi-italic);} 
+.#{$fi-css-prefix}-justify:before {content: unicode($fi-justify);} 
+.#{$fi-css-prefix}-left-align:before {content: unicode($fi-left-align);} 
+.#{$fi-css-prefix}-link2:before {content: unicode($fi-link2);} 
+.#{$fi-css-prefix}-list-1:before {content: unicode($fi-list-1);} 
+.#{$fi-css-prefix}-list-2:before {content: unicode($fi-list-2);} 
+.#{$fi-css-prefix}-outdent:before {content: unicode($fi-outdent);} 
+.#{$fi-css-prefix}-paperclip:before {content: unicode($fi-paperclip);} 
+.#{$fi-css-prefix}-paragraph:before {content: unicode($fi-paragraph);} 
+.#{$fi-css-prefix}-paste:before {content: unicode($fi-paste);} 
+.#{$fi-css-prefix}-preview:before {content: unicode($fi-preview);} 
+.#{$fi-css-prefix}-print2:before {content: unicode($fi-print2);} 
+.#{$fi-css-prefix}-redo:before {content: unicode($fi-redo);} 
+.#{$fi-css-prefix}-right-align:before {content: unicode($fi-right-align);} 
+.#{$fi-css-prefix}-save-1:before {content: unicode($fi-save-1);} 
+.#{$fi-css-prefix}-save:before {content: unicode($fi-save);} 
+.#{$fi-css-prefix}-scissors2:before {content: unicode($fi-scissors2);} 
+.#{$fi-css-prefix}-strikethrough:before {content: unicode($fi-strikethrough);} 
+.#{$fi-css-prefix}-subscript:before {content: unicode($fi-subscript);} 
+.#{$fi-css-prefix}-superscript:before {content: unicode($fi-superscript);} 
+.#{$fi-css-prefix}-table-1:before {content: unicode($fi-table-1);} 
+.#{$fi-css-prefix}-table-2:before {content: unicode($fi-table-2);} 
+.#{$fi-css-prefix}-text-height:before {content: unicode($fi-text-height);} 
+.#{$fi-css-prefix}-text-width:before {content: unicode($fi-text-width);} 
+.#{$fi-css-prefix}-underline:before {content: unicode($fi-underline);} 
+.#{$fi-css-prefix}-undo:before {content: unicode($fi-undo);} 
+.#{$fi-css-prefix}-curve:before {content: unicode($fi-curve);}
+
 .#{$fi-css-prefix}-curve:before {content: unicode($fi-curve);}
 .#{$fi-css-prefix}-ellipse:before {content: unicode($fi-ellipse);}
 .#{$fi-css-prefix}-rectangle:before {content: unicode($fi-rectangle);}

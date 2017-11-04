@@ -4,8 +4,8 @@
  */
 @font-face {
   font-family: "fontisto";
-  src: url("../../fonts/fontisto/fontisto.eot?v=1");
-  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=1") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=1") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=1") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=1#fontisto") format("svg"); }
+  src: url("../../fonts/fontisto/fontisto.eot?v=3");
+  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=3") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=3") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=3") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=3#fontisto") format("svg"); }
 
 .fi {
   display: inline-block;
@@ -22,6 +22,129 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* fontisto icon list*/
+.fi-bold:before {
+  content: "\ea0e"; }
+
+.fi-broken-link:before {
+  content: "\ea0f"; }
+
+.fi-center-align:before {
+  content: "\ea10"; }
+
+.fi-close:before {
+  content: "\ea11"; }
+
+.fi-columns:before {
+  content: "\ea12"; }
+
+.fi-copy:before {
+  content: "\ea13"; }
+
+.fi-eraser:before {
+  content: "\ea14"; }
+
+.fi-export:before {
+  content: "\ea15"; }
+
+.fi-file-1:before {
+  content: "\ea16"; }
+
+.fi-file-2:before {
+  content: "\ea17"; }
+
+.fi-folder:before {
+  content: "\ea18"; }
+
+.fi-font:before {
+  content: "\ea19"; }
+
+.fi-import:before {
+  content: "\ea1a"; }
+
+.fi-indent:before {
+  content: "\ea1b"; }
+
+.fi-italic:before {
+  content: "\ea1c"; }
+
+.fi-justify:before {
+  content: "\ea1d"; }
+
+.fi-left-align:before {
+  content: "\ea1e"; }
+
+.fi-link2:before {
+  content: "\ea1f"; }
+
+.fi-list-1:before {
+  content: "\ea20"; }
+
+.fi-list-2:before {
+  content: "\ea21"; }
+
+.fi-outdent:before {
+  content: "\ea22"; }
+
+.fi-paperclip:before {
+  content: "\ea23"; }
+
+.fi-paragraph:before {
+  content: "\ea24"; }
+
+.fi-paste:before {
+  content: "\ea25"; }
+
+.fi-preview:before {
+  content: "\ea26"; }
+
+.fi-print2:before {
+  content: "\ea27"; }
+
+.fi-redo:before {
+  content: "\ea28"; }
+
+.fi-right-align:before {
+  content: "\ea29"; }
+
+.fi-save-1:before {
+  content: "\ea2a"; }
+
+.fi-save:before {
+  content: "\ea2b"; }
+
+.fi-scissors2:before {
+  content: "\ea2c"; }
+
+.fi-strikethrough:before {
+  content: "\ea2d"; }
+
+.fi-subscript:before {
+  content: "\ea2e"; }
+
+.fi-superscript:before {
+  content: "\ea2f"; }
+
+.fi-table-1:before {
+  content: "\ea30"; }
+
+.fi-table-2:before {
+  content: "\ea31"; }
+
+.fi-text-height:before {
+  content: "\ea32"; }
+
+.fi-text-width:before {
+  content: "\ea33"; }
+
+.fi-underline:before {
+  content: "\ea34"; }
+
+.fi-undo:before {
+  content: "\ea35"; }
+
+.fi-curve:before {
+  content: "\ea0b"; }
+
 .fi-curve:before {
   content: "\ea0b"; }
 
