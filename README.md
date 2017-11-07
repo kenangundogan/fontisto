@@ -101,3 +101,5 @@ Flexible Grid will be maintained under the Semantic Versioning guidelines as muc
 Designed and built by @kenangundogan, @ulasderin and @mstfsnc
 <br>
 2017 Currently - Code licensed [MIT License](https://github.com/kenangundogan/fontisto/blob/master/LICENSE)
+
+<img src="http://fontisto.com/assets/images/fontisto-cover.png">
