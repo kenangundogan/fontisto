@@ -1,9 +1,5 @@
 <p align="center">
-  <a href="http://fontisto.com">
-    <img src="http://fontisto.com/assets/images/logo/fontisto-icon-sunset-orange.svg" width=60>
-    <br>
-    <img src="http://fontisto.com/assets/images/logo/fontisto-logo-sunset-orange.svg" width=200>
-  </a>
+  <a href="http://fontisto.com"><img src="http://fontisto.com/assets/images/fontisto-cover.png"></a>
   
   <p align="center">
    Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of CSS.
@@ -102,4 +98,3 @@ Designed and built by @kenangundogan, @ulasderin and @mstfsnc
 <br>
 2017 Currently - Code licensed [MIT License](https://github.com/kenangundogan/fontisto/blob/master/LICENSE)
 
-<a href="http://fontisto.com"><img src="http://fontisto.com/assets/images/fontisto-cover.png"></a>
