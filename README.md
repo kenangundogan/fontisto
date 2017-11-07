@@ -102,4 +102,4 @@ Designed and built by @kenangundogan, @ulasderin and @mstfsnc
 <br>
 2017 Currently - Code licensed [MIT License](https://github.com/kenangundogan/fontisto/blob/master/LICENSE)
 
-<img src="http://fontisto.com/assets/images/fontisto-cover.png">
+<a href="http://fontisto.com"><img src="http://fontisto.com/assets/images/fontisto-cover.png"></a>
