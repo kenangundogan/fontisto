@@ -5,7 +5,7 @@ $fi-font-path:              "../../fonts/" !default;
 $fi-font-size:              14px !default;
 $fi-font-size-int:          14;
 $fi-font-line-height:       1 !default;
-$fi-font-version:           "3" !default;
+$fi-font-version:           "4" !default;
 $fi-font-border-color:      #dedede !default;
 $fi-font-color-inverse:     #fff !default;
 $fi-font-li-width:          (30em / 14) !default;
@@ -14,6 +14,39 @@ $fi-font-li-width:          (30em / 14) !default;
 @function unicode($str){
     @return unquote("\"") + $str + unquote("\"");
 }
+
+
+
+$fi-cloud-down: \ea36;
+$fi-cloud-refresh: \ea37;
+$fi-cloud-up: \ea38;
+$fi-cloudy-gusts: \ea39;
+$fi-cloudy: \ea3a;
+$fi-compass: \ea3b;
+$fi-day-cloudy: \ea3c;
+$fi-day-haze: \ea3d;
+$fi-day-lightning: \ea3e;
+$fi-day-rain: \ea3f;
+$fi-day-snow: \ea40;
+$fi-day-sunny: \ea41;
+$fi-fog: \ea42;
+$fi-horizon-alt: \ea43;
+$fi-horizon: \ea44;
+$fi-lightning: \ea45;
+$fi-lightnings: \ea46;
+$fi-night-alt-cloudy: \ea47;
+$fi-night-alt-lightning: \ea48;
+$fi-night-alt-rain: \ea49;
+$fi-night-alt-snow: \ea4a;
+$fi-night-clear: \ea4b;
+$fi-rain: \ea4c;
+$fi-rainbow: \ea4d;
+$fi-rains: \ea4e;
+$fi-snow: \ea4f;
+$fi-snows: \ea50;
+$fi-thermometer: \ea51;
+$fi-umbrella: \ea52;
+$fi-wind: \ea53;
 
 $fi-bold: \ea0e;
 $fi-broken-link: \ea0f;

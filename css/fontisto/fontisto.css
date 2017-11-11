@@ -4,8 +4,8 @@
  */
 @font-face {
   font-family: "fontisto";
-  src: url("../../fonts/fontisto/fontisto.eot?v=3");
-  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=3") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=3") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=3") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=3#fontisto") format("svg"); }
+  src: url("../../fonts/fontisto/fontisto.eot?v=4");
+  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=4") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=4") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=4") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=4#fontisto") format("svg"); }
 
 .fi {
   display: inline-block;
@@ -22,6 +22,96 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* fontisto icon list*/
+.fi-cloud-down:before {
+  content: "\ea36"; }
+
+.fi-cloud-refresh:before {
+  content: "\ea37"; }
+
+.fi-cloud-up:before {
+  content: "\ea38"; }
+
+.fi-cloudy-gusts:before {
+  content: "\ea39"; }
+
+.fi-cloudy:before {
+  content: "\ea3a"; }
+
+.fi-compass:before {
+  content: "\ea3b"; }
+
+.fi-day-cloudy:before {
+  content: "\ea3c"; }
+
+.fi-day-haze:before {
+  content: "\ea3d"; }
+
+.fi-day-lightning:before {
+  content: "\ea3e"; }
+
+.fi-day-rain:before {
+  content: "\ea3f"; }
+
+.fi-day-snow:before {
+  content: "\ea40"; }
+
+.fi-day-sunny:before {
+  content: "\ea41"; }
+
+.fi-fog:before {
+  content: "\ea42"; }
+
+.fi-horizon-alt:before {
+  content: "\ea43"; }
+
+.fi-horizon:before {
+  content: "\ea44"; }
+
+.fi-lightning:before {
+  content: "\ea45"; }
+
+.fi-lightnings:before {
+  content: "\ea46"; }
+
+.fi-night-alt-cloudy:before {
+  content: "\ea47"; }
+
+.fi-night-alt-lightning:before {
+  content: "\ea48"; }
+
+.fi-night-alt-rain:before {
+  content: "\ea49"; }
+
+.fi-night-alt-snow:before {
+  content: "\ea4a"; }
+
+.fi-night-clear:before {
+  content: "\ea4b"; }
+
+.fi-rain:before {
+  content: "\ea4c"; }
+
+.fi-rainbow:before {
+  content: "\ea4d"; }
+
+.fi-rains:before {
+  content: "\ea4e"; }
+
+.fi-snow:before {
+  content: "\ea4f"; }
+
+.fi-snows:before {
+  content: "\ea50"; }
+
+.fi-thermometer:before {
+  content: "\ea51"; }
+
+.fi-umbrella:before {
+  content: "\ea52"; }
+
+.fi-wind:before {
+  content: "\ea53"; }
+
 .fi-bold:before {
   content: "\ea0e"; }
 
