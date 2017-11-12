@@ -1061,22 +1061,33 @@
     transform: rotate(359deg); } }
 
 .fi-border {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #dedede;
-  border-radius: .1em; }
-
-.fi-border-circle {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #dedede;
-  border-radius: 100%; }
+  position: relative;
+  z-index: 1;
+  width: 2.2em;
+  height: 2.2em;
+  line-height: 2em;
+  vertical-align: middle;
+  border: solid 2px #000; }
+  .fi-border.ellipse {
+    border-radius: 2.2em; }
+  .fi-border.curve {
+    border-radius: 0.4em; }
+  .fi-border.rectangle {
+    border-radius: 0em; }
+  .fi-border:before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: inherit; }
 
 .fi-stack {
   position: relative;
   z-index: 1;
   display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
+  width: 2.2em;
+  height: 2.2em;
+  line-height: 2.2em;
   vertical-align: middle; }
   .fi-stack.ellipse:after {
     content: "\ea0c"; }
@@ -1090,7 +1101,7 @@
     left: 0;
     width: 100%;
     text-align: center;
-    font-size: 2em; }
+    font-size: 2.2em; }
   .fi-stack:before {
     position: absolute;
     left: 0;
