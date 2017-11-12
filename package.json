@@ -4,7 +4,7 @@
   "license": "MIT",
   "version": "1.0.14",
   "homepage":"http://www.fontisto.com",
-  "main": "fontisto/src/sass/fontisto.scss",
+  "main": "sass/fontisto/fontisto.scss",
    "author": {
     "name": "Kenan Gündoğan",
     "email": "kenangundogann@gmail.com",
