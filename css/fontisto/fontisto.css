@@ -4,8 +4,8 @@
  */
 @font-face {
   font-family: "fontisto";
-  src: url("../../fonts/fontisto/fontisto.eot?v=4");
-  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=4") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=4") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=4") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=4#fontisto") format("svg"); }
+  src: url("../../fonts/fontisto/fontisto.eot?v=13");
+  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=13") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=13") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=13") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=13#fontisto") format("svg"); }
 
 .fi {
   display: inline-block;
@@ -22,6 +22,66 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* fontisto icon list*/
+.fi-confused:before {
+  content: "\ea54"; }
+
+.fi-dizzy:before {
+  content: "\ea55"; }
+
+.fi-expressionless:before {
+  content: "\ea56"; }
+
+.fi-frowning:before {
+  content: "\ea57"; }
+
+.fi-heart-eyes:before {
+  content: "\ea58"; }
+
+.fi-laughing:before {
+  content: "\ea59"; }
+
+.fi-mad:before {
+  content: "\ea5a"; }
+
+.fi-nervous:before {
+  content: "\ea5b"; }
+
+.fi-neutral:before {
+  content: "\ea5c"; }
+
+.fi-open-mouth:before {
+  content: "\ea5d"; }
+
+.fi-rage:before {
+  content: "\ea5e"; }
+
+.fi-slightly-smile:before {
+  content: "\ea5f"; }
+
+.fi-smiley:before {
+  content: "\ea60"; }
+
+.fi-smiling:before {
+  content: "\ea61"; }
+
+.fi-stuck-out-tongue:before {
+  content: "\ea62"; }
+
+.fi-sunglasses:before {
+  content: "\ea63"; }
+
+.fi-surprised:before {
+  content: "\ea64"; }
+
+.fi-tongue:before {
+  content: "\ea65"; }
+
+.fi-wink:before {
+  content: "\ea66"; }
+
+.fi-zipper-mouth:before {
+  content: "\ea67"; }
+
 .fi-cloud-down:before {
   content: "\ea36"; }
 
