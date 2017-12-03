@@ -2,10 +2,10 @@
 $fi-font-name:              "fontisto";
 $fi-css-prefix:             fi !default;
 $fi-font-path:              "../../fonts/" !default;
-$fi-font-size:              14px !default;
+$fi-font-size:              14px !default; 
 $fi-font-size-int:          14;
 $fi-font-line-height:       1 !default;
-$fi-font-version:           "132" !default;
+$fi-font-version:           "150" !default;
 $fi-font-border-color:      #dedede !default;
 $fi-font-color-inverse:     #fff !default;
 $fi-font-li-width:          (30em / 14) !default;
@@ -15,6 +15,16 @@ $fi-font-li-width:          (30em / 14) !default;
     @return unquote("\"") + $str + unquote("\"");
 }
 
+$fi-shopping-bag-1: \ea6b;
+$fi-shopping-bag: \ea6c;
+$fi-shopping-barcode: \ea71;
+$fi-shopping-basket-add: \ea72;
+$fi-shopping-basket-remove: \ea73;
+$fi-shopping-basket: \ea74;
+$fi-shopping-package: \ea75;
+$fi-shopping-pos-machine: \ea76;
+$fi-shopping-sale: \ea77;
+$fi-shopping-store: \ea78;
 
 $fi-confused: \ea54;
 $fi-dizzy: \ea55;
@@ -321,6 +331,9 @@ $fi-wifi: \e9cc;
 $fi-world-o: \e9cd;
 $fi-world: \e9ce;
 $fi-zoom: \e9cf;
+$fi-adjust: \ea6f;
+$fi-recycle: \ea70;
+
 $fi-american-express: \e9d0;
 $fi-credit-card: \e9d1;
 $fi-google-wallet: \e9d2;
@@ -331,6 +344,11 @@ $fi-paypal: \e9d6;
 $fi-payu: \e9d7;
 $fi-troy: \e9d8;
 $fi-visa: \e9d9;
+$fi-dinners-club: \ea6a;
+$fi-apple-pay: \ea69;
+$fi-discover: \ea6d;
+$fi-jcb: \ea6e;
+
 $fi-backward: \e9da;
 $fi-eject: \e9db;
 $fi-equalizer: \e9dc;
@@ -355,6 +373,7 @@ $fi-volume-mute: \e9ee;
 $fi-volume-off: \e9ef;
 $fi-volume-up: \e9f0;
 $fi-airplay: \ea68;
+
 $fi-circle-o-notch: \e9f1;
 $fi-propeller-1: \e9f2;
 $fi-propeller-2: \e9f3;
@@ -365,6 +384,7 @@ $fi-spinner-fidget: \e9f7;
 $fi-spinner-refresh: \e9f8;
 $fi-spinner-rotate-forward: \e9f9;
 $fi-spinner: \e9fa;
+
 $fi-automobile: \e9fb;
 $fi-bicycle: \e9fc;
 $fi-bus: \e9fd;
