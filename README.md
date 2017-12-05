@@ -47,8 +47,8 @@ Within the download you'll find the following directories and files, logically g
 #### Outuput File
 
 ```
-	fontisto/
-	├── css/
+	css/
+	├── fontisto/
 		├── fontisto.css
 		├── fontisto.css.map
 		├── fontisto.min.css
