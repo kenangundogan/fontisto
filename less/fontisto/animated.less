@@ -1,0 +1,15 @@
+// Animated
+// fi-spin
+.@{fi-css-prefix}-spin {
+    animation: fi-spin 2s infinite linear;
+}
+
+// fi-pulse
+.@{fi-css-prefix}-pulse {
+    animation: fi-spin 1s infinite steps(8);
+}
+
+@keyframes fi-spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(359deg);}
+}

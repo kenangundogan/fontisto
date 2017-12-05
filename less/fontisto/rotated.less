@@ -1,0 +1,46 @@
+// Rotate
+.fi-icon-r(@degrees, @rotation) {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=@{rotation})";
+    transform: rotate(@degrees);
+}
+
+.fi-icon-f(@horiz, @vert, @rotation) {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=@{rotation}, mirror=1)";
+    transform: scale(@horiz, @vert);
+}
+
+.@{fi-css-prefix}-r-45 {
+    .fi-icon-r(45deg, 1)
+}
+
+.@{fi-css-prefix}-r-90 {
+    .fi-icon-r(90deg, 1)
+}
+
+.@{fi-css-prefix}-r-135 {
+    .fi-icon-r(135deg, 1)
+}
+
+.@{fi-css-prefix}-r-180 {
+    .fi-icon-r(180deg, 2)
+}
+
+.@{fi-css-prefix}-r-225 {
+    .fi-icon-r(225deg, 2)
+}
+
+.@{fi-css-prefix}-r-270 {
+    .fi-icon-r(270deg, 3)
+}
+
+.@{fi-css-prefix}-r-315 {
+    .fi-icon-r(315deg, 3)
+}
+
+.@{fi-css-prefix}-f-horizontal {
+    .fi-icon-f(-1, 1, 0)
+}
+
+.@{fi-css-prefix}-f-vertical {
+    .fi-icon-f(1, -1, 2)
+}

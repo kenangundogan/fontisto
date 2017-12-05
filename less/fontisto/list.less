@@ -1,0 +1,16 @@
+// List
+.@{fi-css-prefix}-list {
+    padding-left: 0;
+    margin-left: @fi-font-li-width;
+    list-style-type: none;
+    >li {
+        position: relative;
+        .@{fi-css-prefix} {
+            position: absolute;
+            top: (2em / 14);
+            left: -@fi-font-li-width;
+            width: @fi-font-li-width;
+            text-align: center;
+        }
+    }
+}

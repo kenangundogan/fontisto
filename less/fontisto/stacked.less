@@ -1,0 +1,35 @@
+// Stacked
+.@{fi-css-prefix}-stack {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 2.2em;
+    height: 2.2em;
+    line-height: 2.2em;
+    vertical-align: middle;
+    &.ellipse:after {
+        content: "\ea0c"
+    }
+    &.curve:after {
+        content: "\ea0b"
+    }
+    &.rectangle:after {
+        content: "\ea0d"
+    }
+    &:after {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 2.2em;
+    }
+    &:before {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        line-height: inherit;
+        color: @fi-font-color-inverse;
+    }
+}
