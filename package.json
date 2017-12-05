@@ -32,6 +32,9 @@
     "icon-pack",
     "icon-set",
     "web-font",
-    "web-icons"
+    "web-icons",
+    "sass",
+    "less",
+    "stylus"
   ]
 }
