@@ -55,7 +55,7 @@ Within the download you'll find the following directories and files, logically g
 		└── fontisto.min.css.map
 ```
 
-#### Source File
+#### Source File (Sass/Scss)
 ```
 	sass/
 	├── fontisto/
@@ -72,7 +72,7 @@ Within the download you'll find the following directories and files, logically g
 		├── _fixed-width.scss
 		└── _screen-readers.scss
 ```
-
+#### Source File (Less)
 ```
 	less/
 	├── fontisto/
@@ -89,7 +89,7 @@ Within the download you'll find the following directories and files, logically g
 		├── fixed-width.less
 		└── screen-readers.less
 ```
-
+#### Source File (Stylus)
 ```
 	stylus/
 	├── fontisto/
