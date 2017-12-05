@@ -57,8 +57,8 @@ Within the download you'll find the following directories and files, logically g
 
 #### Source File
 ```
-	fontisto/
-	├── sass/
+	sass/
+	├── fontisto/
 		├── fontisto.scss
 		├── _variables.scss
 		├── _color.scss
@@ -71,6 +71,40 @@ Within the download you'll find the following directories and files, logically g
 		├── _stacked.scss
 		├── _fixed-width.scss
 		└── _screen-readers.scss
+```
+
+```
+	less/
+	├── fontisto/
+		├── fontisto.less
+		├── _variables.less
+		├── _color.less
+		├── _font.less
+		├── _icons.less
+		├── _animated.less
+		├── _list.less 
+		├── _bordered.less
+		├── _rotated.less
+		├── _stacked.less
+		├── _fixed-width.less
+		└── _screen-readers.less
+```
+
+```
+	stylus/
+	├── fontisto/
+		├── fontisto.styl
+		├── _variables.styl
+		├── _color.styl
+		├── _font.styl
+		├── _icons.styl
+		├── _animated.styl
+		├── _list.styl 
+		├── _bordered.styl
+		├── _rotated.styl
+		├── _stacked.styl
+		├── _fixed-width.styl
+		└── _screen-readers.styl
 ```
 
 
