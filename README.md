@@ -77,34 +77,34 @@ Within the download you'll find the following directories and files, logically g
 	less/
 	├── fontisto/
 		├── fontisto.less
-		├── _variables.less
-		├── _color.less
-		├── _font.less
-		├── _icons.less
-		├── _animated.less
-		├── _list.less 
-		├── _bordered.less
-		├── _rotated.less
-		├── _stacked.less
-		├── _fixed-width.less
-		└── _screen-readers.less
+		├── variables.less
+		├── color.less
+		├── font.less
+		├── icons.less
+		├── animated.less
+		├── list.less 
+		├── bordered.less
+		├── rotated.less
+		├── stacked.less
+		├── fixed-width.less
+		└── screen-readers.less
 ```
 
 ```
 	stylus/
 	├── fontisto/
 		├── fontisto.styl
-		├── _variables.styl
-		├── _color.styl
-		├── _font.styl
-		├── _icons.styl
-		├── _animated.styl
-		├── _list.styl 
-		├── _bordered.styl
-		├── _rotated.styl
-		├── _stacked.styl
-		├── _fixed-width.styl
-		└── _screen-readers.styl
+		├── variables.styl
+		├── color.styl
+		├── font.styl
+		├── icons.styl
+		├── animated.styl
+		├── list.styl 
+		├── bordered.styl
+		├── rotated.styl
+		├── stacked.styl
+		├── fixed-width.styl
+		└── screen-readers.styl
 ```
 
 
