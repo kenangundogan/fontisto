@@ -1,0 +1,21 @@
+// Bordered
+.{$fi-css-prefix}-border
+  position: relative
+  z-index: 1
+  width: 2.2em
+  height: 2.2em
+  line-height: 2em
+  vertical-align: middle
+  border: solid 2px #000
+  &.ellipse
+    border-radius: 2.2em
+  &.curve
+    border-radius: 0.4em
+  &.rectangle
+    border-radius: 0em
+  &:before
+    position: absolute
+    left: 0
+    width: 100%
+    text-align: center
+    line-height: inherit
