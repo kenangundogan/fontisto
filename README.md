@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://fontisto.com"><img src="http://fontisto.com/assets/images/fontisto-cover.png"></a>
+  <a href="http://fontisto.com"><img src="http://fontisto.com/assets/images/fontisto-cover-1.png"></a>
   
   <p align="center">
    Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of CSS.
@@ -132,3 +132,16 @@ Designed and built by @kenangundogan, @ulasderin and @mstfsnc
 <br>
 2017 Currently - Code licensed [MIT License](https://github.com/kenangundogan/fontisto/blob/master/LICENSE)
 
+
+<p align="center">
+  <a href="http://fontisto.com/browser-addon"><img src="http://fontisto.com/assets/images/browser-addon-screen-shot/fontisto-chrome-extentions-1280x800-2.png"></a>
+  
+  <p align="center">
+   Fontisto browser addons (chrome, firefox, opera)
+    <br>
+    <a href="http://fontisto.com/browser-addon"><strong>Fontisto Browser Addons</strong></a> &middot;
+    <a href="https://chrome.google.com/webstore/detail/fontisto/gnmccfjgnhfoihcpglcogbclihomaidh?hl=en"><strong>Fontisto Chrome Extension</strong></a> &middot;
+    <a href="https://addons.mozilla.org/tr/firefox/addon/fontisto/"><strong>Fontisto Firefox Addon</strong></a> &middot;
+    <a href="https://addons.opera.com/tr/extensions/details/fontisto/"><strong>Fontisto Opera Addon</strong></a> &middot;
+  </p>
+</p>
