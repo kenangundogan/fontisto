@@ -1,5 +1,20 @@
 /* fontisto icon list*/
 
+.#{$fi-css-prefix}-adobe:before {content: unicode($fi-adobe);}
+.#{$fi-css-prefix}-algolia:before {content: unicode($fi-algolia);}
+.#{$fi-css-prefix}-atom:before {content: unicode($fi-atom);}
+.#{$fi-css-prefix}-babel:before {content: unicode($fi-babel);}
+.#{$fi-css-prefix}-coffeescript:before {content: unicode($fi-coffeescript);}
+.#{$fi-css-prefix}-electronjs:before {content: unicode($fi-electronjs);}
+.#{$fi-css-prefix}-mysql:before {content: unicode($fi-mysql);}
+.#{$fi-css-prefix}-oracle:before {content: unicode($fi-oracle);}
+.#{$fi-css-prefix}-php:before {content: unicode($fi-php);}
+.#{$fi-css-prefix}-sourcetree:before {content: unicode($fi-sourcetree);}
+.#{$fi-css-prefix}-ubuntu:before {content: unicode($fi-ubuntu);}
+.#{$fi-css-prefix}-unity:before {content: unicode($fi-unity);}
+.#{$fi-css-prefix}-unreal-engine:before {content: unicode($fi-unreal-engine);}
+.#{$fi-css-prefix}-webpack:before {content: unicode($fi-webpack);}
+
 .#{$fi-css-prefix}-angelist:before {content: unicode($fi-angelist);}
 .#{$fi-css-prefix}-app-store:before {content: unicode($fi-app-store);}
 .#{$fi-css-prefix}-digg:before {content: unicode($fi-digg);}
