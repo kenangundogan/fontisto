@@ -5,7 +5,7 @@ $fi-font-path:              "../../fonts/" !default;
 $fi-font-size:              14px !default; 
 $fi-font-size-int:          14;
 $fi-font-line-height:       1 !default;
-$fi-font-version:           "180" !default;
+$fi-font-version:           "190" !default;
 $fi-font-border-color:      #dedede !default;
 $fi-font-color-inverse:     #fff !default;
 $fi-font-li-width:          (30em / 14) !default;
@@ -14,6 +14,27 @@ $fi-font-li-width:          (30em / 14) !default;
 @function unicode($str){
     @return unquote("\"") + $str + unquote("\"");
 }
+
+$fi-snowflake: \eab1;
+$fi-snowflake-1: \eaa9;
+$fi-snowflake-2: \eaaa;
+$fi-snowflake-3: \eaab;
+$fi-snowflake-4: \eaac;
+$fi-snowflake-5: \eaad;
+$fi-snowflake-6: \eaae;
+$fi-snowflake-7: \eaaf;
+$fi-snowflake-8: \eab0;
+$fi-zoom-minus: \eab2;
+$fi-zoom-plus: \eab3;
+$fi-check: \eab4;
+$fi-asterisk: \eab5;
+$fi-hashtag: \eab6;
+$fi-ember: \eab7;
+$fi-cpanel: \eab8;
+$fi-viber: \eab9;
+$fi-deskpro: \eaba;
+$fi-discord: \eabb;
+$fi-discourse: \eabc;
 
 $fi-adobe: \ea9b;
 $fi-algolia: \ea9c;
