@@ -5,8 +5,8 @@ $fi-font-path:              "../../fonts/" !default;
 $fi-font-size:              14px !default; 
 $fi-font-size-int:          14;
 $fi-font-line-height:       1 !default;
-$fi-font-version:           "190" !default;
-$fi-font-border-color:      #dedede !default;
+$fi-font-version:           "200" !default;
+$fi-font-border-color:      #dedede !default; 
 $fi-font-color-inverse:     #fff !default;
 $fi-font-li-width:          (30em / 14) !default;
 
@@ -15,27 +15,68 @@ $fi-font-li-width:          (30em / 14) !default;
     @return unquote("\"") + $str + unquote("\"");
 }
 
-$fi-snowflake: \eab1;
-$fi-snowflake-1: \eaa9;
-$fi-snowflake-2: \eaaa;
-$fi-snowflake-3: \eaab;
-$fi-snowflake-4: \eaac;
-$fi-snowflake-5: \eaad;
-$fi-snowflake-6: \eaae;
-$fi-snowflake-7: \eaaf;
-$fi-snowflake-8: \eab0;
-$fi-zoom-minus: \eab2;
-$fi-zoom-plus: \eab3;
-$fi-check: \eab4;
-$fi-asterisk: \eab5;
-$fi-hashtag: \eab6;
+// Brand
+$fi-acrobat-reader: \eabf;
+$fi-applemusic: \eac0;
+$fi-atlassian: \eac1;
+$fi-aws: \eac2;
+$fi-baidu: \eac3;
+$fi-bing: \eac4;
+$fi-bower: \eac5;
+$fi-dailymotion: \eac6;
+$fi-delicious: \eac7;
+$fi-deviantart: \eac8;
+$fi-disqus: \eac9;
+$fi-flipboard: \eaca;
+$fi-graphql: \eacb;
+$fi-hexo: \eacc;
+$fi-hipchat: \eacd;
+$fi-icq: \eace;
+$fi-invision: \eacf;
+$fi-jekyll: \ead0;
+$fi-jira: \ead1;
+$fi-json: \ead2;
+$fi-livestream: \ead3;
+$fi-messenger: \ead4;
+$fi-meteor: \ead5;
+$fi-microsoftonenote: \ead6;
+$fi-mongodb: \ead7;
+$fi-netflix: \ead8;
+$fi-nginx: \ead9;
+$fi-odnoklassniki: \eada;
+$fi-onedrive: \eadb;
+$fi-origin: \eadc;
+$fi-pingdom: \eadd;
+$fi-rails: \eade;
+$fi-raspberrypi: \eadf;
+$fi-redis: \eae0;
+$fi-redux: \eae1;
+$fi-saucelabs: \eae2;
+$fi-scorp: \eae3;
+$fi-sentry: \eae4;
+$fi-shazam: \eae5;
+$fi-shopify: \eae6;
+$fi-sinaweibo: \eae7;
+$fi-slides: \eae8;
+$fi-sublimetext: \eae9;
+$fi-swift: \eaea;
+$fi-ted: \eaeb;
+$fi-telegram: \eaec;
+$fi-tesla: \eaed;
+$fi-tinder: \eaee;
+$fi-treehouse: \eaef;
+$fi-twoo: \eaf0;
+$fi-udacity: \eaf1;
+$fi-webstorm: \eaf2;
+$fi-wix: \eaf3;
+$fi-yandex-international: \eaf4;
+$fi-yandex: \eaf5;
 $fi-ember: \eab7;
 $fi-cpanel: \eab8;
 $fi-viber: \eab9;
 $fi-deskpro: \eaba;
 $fi-discord: \eabb;
 $fi-discourse: \eabc;
-
 $fi-adobe: \ea9b;
 $fi-algolia: \ea9c;
 $fi-atom: \ea9d;
@@ -50,7 +91,6 @@ $fi-ubuntu: \eaa5;
 $fi-unity: \eaa6;
 $fi-unreal-engine: \eaa7;
 $fi-webpack: \eaa8;
-
 $fi-angelist: \ea7a;
 $fi-app-store: \ea7b;
 $fi-digg: \ea7e;
@@ -84,125 +124,6 @@ $fi-vk: \ea99;
 $fi-vuejs: \ea9a;
 $fi-microsoft: \ea79;
 $fi-blogger: \ea7c;
-
-$fi-shopping-bag-1: \ea6b;
-$fi-shopping-bag: \ea6c;
-$fi-shopping-barcode: \ea71;
-$fi-shopping-basket-add: \ea72;
-$fi-shopping-basket-remove: \ea73;
-$fi-shopping-basket: \ea74;
-$fi-shopping-package: \ea75;
-$fi-shopping-pos-machine: \ea76;
-$fi-shopping-sale: \ea77;
-$fi-shopping-store: \ea78;
-
-$fi-confused: \ea54;
-$fi-dizzy: \ea55;
-$fi-expressionless: \ea56;
-$fi-frowning: \ea57;
-$fi-heart-eyes: \ea58;
-$fi-laughing: \ea59;
-$fi-mad: \ea5a;
-$fi-nervous: \ea5b;
-$fi-neutral: \ea5c;
-$fi-open-mouth: \ea5d;
-$fi-rage: \ea5e;
-$fi-slightly-smile: \ea5f;
-$fi-smiley: \ea60;
-$fi-smiling: \ea61;
-$fi-stuck-out-tongue: \ea62;
-$fi-sunglasses: \ea63;
-$fi-surprised: \ea64;
-$fi-tongue: \ea65;
-$fi-wink: \ea66;
-$fi-zipper-mouth: \ea67;
-
-$fi-cloud-down: \ea36;
-$fi-cloud-refresh: \ea37;
-$fi-cloud-up: \ea38;
-$fi-cloudy-gusts: \ea39;
-$fi-cloudy: \ea3a;
-$fi-compass: \ea3b;
-$fi-day-cloudy: \ea3c;
-$fi-day-haze: \ea3d;
-$fi-day-lightning: \ea3e;
-$fi-day-rain: \ea3f;
-$fi-day-snow: \ea40;
-$fi-day-sunny: \ea41;
-$fi-fog: \ea42;
-$fi-horizon-alt: \ea43;
-$fi-horizon: \ea44;
-$fi-lightning: \ea45;
-$fi-lightnings: \ea46;
-$fi-night-alt-cloudy: \ea47;
-$fi-night-alt-lightning: \ea48;
-$fi-night-alt-rain: \ea49;
-$fi-night-alt-snow: \ea4a;
-$fi-night-clear: \ea4b;
-$fi-rain: \ea4c;
-$fi-rainbow: \ea4d;
-$fi-rains: \ea4e;
-$fi-snow: \ea4f;
-$fi-snows: \ea50;
-$fi-thermometer: \ea51;
-$fi-umbrella: \ea52;
-$fi-wind: \ea53;
-
-$fi-bold: \ea0e;
-$fi-broken-link: \ea0f;
-$fi-center-align: \ea10;
-$fi-close: \ea11;
-$fi-columns: \ea12;
-$fi-copy: \ea13;
-$fi-eraser: \ea14;
-$fi-export: \ea15;
-$fi-file-1: \ea16;
-$fi-file-2: \ea17;
-$fi-folder: \ea18; 
-$fi-font: \ea19;
-$fi-import: \ea1a;
-$fi-indent: \ea1b;
-$fi-italic: \ea1c;
-$fi-justify: \ea1d;
-$fi-left-align: \ea1e;
-$fi-link2: \ea1f;
-$fi-list-1: \ea20;
-$fi-list-2: \ea21;
-$fi-outdent: \ea22;
-$fi-paperclip: \ea23;
-$fi-paragraph: \ea24;
-$fi-paste: \ea25;
-$fi-preview: \ea26;
-$fi-print2: \ea27;
-$fi-redo: \ea28;
-$fi-right-align: \ea29;
-$fi-save-1: \ea2a;
-$fi-save: \ea2b;
-$fi-scissors2: \ea2c;
-$fi-strikethrough: \ea2d;
-$fi-subscript: \ea2e;
-$fi-superscript: \ea2f;
-$fi-table-1: \ea30;
-$fi-table-2: \ea31;
-$fi-text-height: \ea32;
-$fi-text-width: \ea33;
-$fi-underline: \ea34;
-$fi-undo: \ea35;
-
-$fi-curve: \ea0b; 
-$fi-ellipse: \ea0c;
-$fi-rectangle: \ea0d;
-$fi-shield: \ea0a;
-$fi-audio-description: \e900;
-$fi-blind: \e901;
-$fi-braille: \e902;
-$fi-deaf: \e903;
-$fi-fa-american-sign-language-interpreting: \e904;
-$fi-if_question-circle_383085: \e905;
-$fi-low-vision: \e906;
-$fi-tty: \e907;
-$fi-universal-acces: \e908;
-$fi-wheelchair: \e909;
 $fi-500px: \e90a;
 $fi-amazon: \e90b;
 $fi-ampproject: \e90c;
@@ -271,78 +192,10 @@ $fi-xbox: \e94a;
 $fi-yahoo: \e94b;
 $fi-yelp: \e94c;
 $fi-youtube-play: \e94d;
-$fi-chrome: \e94e;
-$fi-edge: \e94f;
-$fi-firefox: \e950;
-$fi-internet-explorer: \e951;
-$fi-opera: \e952;
-$fi-safari: \e953;
-$fi-area-chart: \e954;
-$fi-bar-chart: \e955;
-$fi-line-chart: \e956;
-$fi-pie-chart-1: \e957;
-$fi-pie-chart-2: \e958;
-$fi-bitcoin: \e959;
-$fi-dollar: \e95a;
-$fi-euro: \e95b;
-$fi-gbp: \e95c;
-$fi-gg: \e95d;
-$fi-ils: \e95e;
-$fi-inr: \e95f;
-$fi-krw: \e960;
-$fi-rouble: \e961;
-$fi-tl: \e962;
-$fi-yen: \e963;
-$fi-angle-dobule-down: \e964;
-$fi-angle-dobule-left: \e965;
-$fi-angle-dobule-right: \e966;
-$fi-angle-dobule-up: \e967;
-$fi-angle-down: \e968;
-$fi-angle-left: \e969;
-$fi-angle-right: \e96a;
-$fi-angle-up: \e96b;
-$fi-arrow-down-l: \e96c;
-$fi-arrow-down: \e96d;
-$fi-arrow-expand: \e96e;
-$fi-arrow-h: \e96f;
-$fi-arrow-left-l: \e970;
-$fi-arrow-left: \e971;
-$fi-arrow-move: \e972;
-$fi-arrow-resize: \e973;
-$fi-arrow-return-left: \e974;
-$fi-arrow-return-right: \e975;
-$fi-arrow-right-l: \e976;
-$fi-arrow-right: \e977;
-$fi-arrow-swap: \e978;
-$fi-arrow-up-l: \e979;
-$fi-arrow-up: \e97a;
-$fi-arrow-v: \e97b;
-$fi-caret-down: \e97c;
-$fi-caret-left: \e97d;
-$fi-caret-right: \e97e;
-$fi-caret-up: \e97f;
-$fi-fi: \e980;
-$fi-fontisto: \e981;
-$fi-checkbox-active: \e982;
-$fi-checkbox-passive: \e983;
-$fi-radio-btn-active: \e984;
-$fi-radio-btn-passive: \e985;
-$fi-genderless: \e986;
-$fi-intersex: \e987;
-$fi-mars-double: \e988;
-$fi-mars-stroke-h: \e989;
-$fi-mars-stroke-v: \e98a;
-$fi-mars-stroke: \e98b;
-$fi-mars: \e98c;
-$fi-mercury: \e98d;
-$fi-neuter: \e98e;
-$fi-transgender-alt: \e98f;
-$fi-transgender: \e990;
-$fi-venus-double: \e991;
-$fi-venus-mars: \e992;
-$fi-venus: \e993;
-$fi-dislike: \e994;
-$fi-like: \e995;
+
+
+
+// Web Application
 $fi-camera: \e996;
 $fi-clock: \e997;
 $fi-close-a: \e998;
@@ -403,7 +256,133 @@ $fi-world: \e9ce;
 $fi-zoom: \e9cf;
 $fi-adjust: \ea6f;
 $fi-recycle: \ea70;
+$fi-pinboard: \eabd;
+$fi-zoom-minus: \eab2;
+$fi-zoom-plus: \eab3;
+$fi-check: \eab4;
+$fi-asterisk: \eab5;
+$fi-hashtag: \eab6;
 
+
+// Shopping
+$fi-shopping-bag-1: \ea6b;
+$fi-shopping-bag: \ea6c;
+$fi-shopping-barcode: \ea71;
+$fi-shopping-basket-add: \ea72;
+$fi-shopping-basket-remove: \ea73;
+$fi-shopping-basket: \ea74;
+$fi-shopping-package: \ea75;
+$fi-shopping-pos-machine: \ea76;
+$fi-shopping-sale: \ea77;
+$fi-shopping-store: \ea78;
+
+
+// Directional
+$fi-angle-dobule-down: \e964;
+$fi-angle-dobule-left: \e965;
+$fi-angle-dobule-right: \e966;
+$fi-angle-dobule-up: \e967;
+$fi-angle-down: \e968;
+$fi-angle-left: \e969;
+$fi-angle-right: \e96a;
+$fi-angle-up: \e96b;
+$fi-arrow-down-l: \e96c;
+$fi-arrow-down: \e96d;
+$fi-arrow-expand: \e96e;
+$fi-arrow-h: \e96f;
+$fi-arrow-left-l: \e970;
+$fi-arrow-left: \e971;
+$fi-arrow-move: \e972;
+$fi-arrow-resize: \e973;
+$fi-arrow-return-left: \e974;
+$fi-arrow-return-right: \e975;
+$fi-arrow-right-l: \e976;
+$fi-arrow-right: \e977;
+$fi-arrow-swap: \e978;
+$fi-arrow-up-l: \e979;
+$fi-arrow-up: \e97a;
+$fi-arrow-v: \e97b;
+$fi-caret-down: \e97c;
+$fi-caret-left: \e97d;
+$fi-caret-right: \e97e;
+$fi-caret-up: \e97f;
+$fi-fi: \e980;
+$fi-fontisto: \e981;
+
+
+// Form Control
+$fi-checkbox-active: \e982;
+$fi-checkbox-passive: \e983;
+$fi-radio-btn-active: \e984;
+$fi-radio-btn-passive: \e985;
+
+
+// Hand
+$fi-dislike: \e994;
+$fi-like: \e995;
+
+
+// Accessibility
+$fi-audio-description: \e900;
+$fi-blind: \e901;
+$fi-braille: \e902;
+$fi-deaf: \e903;
+$fi-fa-american-sign-language-interpreting: \e904;
+$fi-low-vision: \e906;
+$fi-tty: \e907;
+$fi-universal-acces: \e908;
+$fi-wheelchair: \e909;
+
+
+// Chart
+$fi-area-chart: \e954;
+$fi-bar-chart: \e955;
+$fi-line-chart: \e956;
+$fi-pie-chart-1: \e957;
+$fi-pie-chart-2: \e958;
+
+
+// Browser
+$fi-chrome: \e94e;
+$fi-edge: \e94f;
+$fi-firefox: \e950;
+$fi-internet-explorer: \e951;
+$fi-opera: \e952;
+$fi-safari: \e953;
+
+
+// Currency
+$fi-bitcoin: \e959;
+$fi-dollar: \e95a;
+$fi-euro: \e95b;
+$fi-gbp: \e95c;
+$fi-gg: \e95d;
+$fi-ils: \e95e;
+$fi-inr: \e95f;
+$fi-krw: \e960;
+$fi-rouble: \e961;
+$fi-tl: \e962;
+$fi-yen: \e963;
+
+
+// Gender
+$fi-genderless: \e986;
+$fi-intersex: \e987;
+$fi-mars-double: \e988;
+$fi-mars-stroke-h: \e989;
+$fi-mars-stroke-v: \e98a;
+$fi-mars-stroke: \e98b;
+$fi-mars: \e98c;
+$fi-mercury: \e98d;
+$fi-neuter: \e98e;
+$fi-transgender-alt: \e98f;
+$fi-transgender: \e990;
+$fi-venus-double: \e991;
+$fi-venus-mars: \e992;
+$fi-venus: \e993;
+
+
+// Payment
 $fi-american-express: \e9d0;
 $fi-credit-card: \e9d1;
 $fi-google-wallet: \e9d2;
@@ -419,6 +398,8 @@ $fi-apple-pay: \ea69;
 $fi-discover: \ea6d;
 $fi-jcb: \ea6e;
 
+
+// Player
 $fi-backward: \e9da;
 $fi-eject: \e9db;
 $fi-equalizer: \e9dc;
@@ -444,17 +425,8 @@ $fi-volume-off: \e9ef;
 $fi-volume-up: \e9f0;
 $fi-airplay: \ea68;
 
-$fi-circle-o-notch: \e9f1;
-$fi-propeller-1: \e9f2;
-$fi-propeller-2: \e9f3;
-$fi-propeller-3: \e9f4;
-$fi-propeller-4: \e9f5;
-$fi-spinner-cog: \e9f6;
-$fi-spinner-fidget: \e9f7;
-$fi-spinner-refresh: \e9f8;
-$fi-spinner-rotate-forward: \e9f9;
-$fi-spinner: \e9fa;
 
+// Transportation
 $fi-automobile: \e9fb;
 $fi-bicycle: \e9fc;
 $fi-bus: \e9fd;
@@ -471,3 +443,133 @@ $fi-train: \ea07;
 $fi-truck: \ea08;
 $fi-yacht: \ea09;
 
+
+// Spinner
+$fi-circle-o-notch: \e9f1;
+$fi-propeller-1: \e9f2;
+$fi-propeller-2: \e9f3;
+$fi-propeller-3: \e9f4;
+$fi-propeller-4: \e9f5;
+$fi-spinner-cog: \e9f6;
+$fi-spinner-fidget: \e9f7;
+$fi-spinner-refresh: \e9f8;
+$fi-spinner-rotate-forward: \e9f9;
+$fi-spinner: \e9fa;
+
+
+// Text Editor
+$fi-bold: \ea0e;
+$fi-broken-link: \ea0f;
+$fi-center-align: \ea10;
+$fi-close: \ea11;
+$fi-columns: \ea12;
+$fi-copy: \ea13;
+$fi-eraser: \ea14;
+$fi-export: \ea15;
+$fi-file-1: \ea16;
+$fi-file-2: \ea17;
+$fi-folder: \ea18; 
+$fi-font: \ea19;
+$fi-import: \ea1a;
+$fi-indent: \ea1b;
+$fi-italic: \ea1c;
+$fi-justify: \ea1d;
+$fi-left-align: \ea1e;
+$fi-link2: \ea1f;
+$fi-list-1: \ea20;
+$fi-list-2: \ea21;
+$fi-outdent: \ea22;
+$fi-paperclip: \ea23;
+$fi-paragraph: \ea24;
+$fi-paste: \ea25;
+$fi-preview: \ea26;
+$fi-print2: \ea27;
+$fi-redo: \ea28;
+$fi-right-align: \ea29;
+$fi-save-1: \ea2a;
+$fi-save: \ea2b;
+$fi-scissors2: \ea2c;
+$fi-strikethrough: \ea2d;
+$fi-subscript: \ea2e;
+$fi-superscript: \ea2f;
+$fi-table-1: \ea30;
+$fi-table-2: \ea31;
+$fi-text-height: \ea32;
+$fi-text-width: \ea33;
+$fi-underline: \ea34;
+$fi-undo: \ea35;
+
+
+// Weather Foreces
+$fi-cloud-down: \ea36;
+$fi-cloud-refresh: \ea37;
+$fi-cloud-up: \ea38;
+$fi-cloudy-gusts: \ea39;
+$fi-cloudy: \ea3a;
+$fi-compass: \ea3b;
+$fi-day-cloudy: \ea3c;
+$fi-day-haze: \ea3d;
+$fi-day-lightning: \ea3e;
+$fi-day-rain: \ea3f;
+$fi-day-snow: \ea40;
+$fi-day-sunny: \ea41;
+$fi-fog: \ea42;
+$fi-horizon-alt: \ea43;
+$fi-horizon: \ea44;
+$fi-lightning: \ea45;
+$fi-lightnings: \ea46;
+$fi-night-alt-cloudy: \ea47;
+$fi-night-alt-lightning: \ea48;
+$fi-night-alt-rain: \ea49;
+$fi-night-alt-snow: \ea4a;
+$fi-night-clear: \ea4b;
+$fi-rain: \ea4c;
+$fi-rainbow: \ea4d;
+$fi-rains: \ea4e;
+$fi-snow: \ea4f;
+$fi-snows: \ea50;
+$fi-thermometer: \ea51;
+$fi-umbrella: \ea52;
+$fi-wind: \ea53;
+
+
+// Emoji
+$fi-confused: \ea54;
+$fi-dizzy: \ea55;
+$fi-expressionless: \ea56;
+$fi-frowning: \ea57;
+$fi-heart-eyes: \ea58;
+$fi-laughing: \ea59;
+$fi-mad: \ea5a;
+$fi-nervous: \ea5b;
+$fi-neutral: \ea5c;
+$fi-open-mouth: \ea5d;
+$fi-rage: \ea5e;
+$fi-slightly-smile: \ea5f;
+$fi-smiley: \ea60;
+$fi-smiling: \ea61;
+$fi-stuck-out-tongue: \ea62;
+$fi-sunglasses: \ea63;
+$fi-surprised: \ea64;
+$fi-tongue: \ea65;
+$fi-wink: \ea66;
+$fi-zipper-mouth: \ea67;
+
+
+// Snowflake
+$fi-snowflake: \eab1;
+$fi-snowflake-1: \eaa9;
+$fi-snowflake-2: \eaaa;
+$fi-snowflake-3: \eaab;
+$fi-snowflake-4: \eaac;
+$fi-snowflake-5: \eaad;
+$fi-snowflake-6: \eaae;
+$fi-snowflake-7: \eaaf;
+$fi-snowflake-8: \eab0;
+
+
+// Other
+$fi-curve: \ea0b; 
+$fi-ellipse: \ea0c;
+$fi-rectangle: \ea0d;
+$fi-shield: \ea0a;

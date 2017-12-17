@@ -1,26 +1,67 @@
 /* fontisto icon list*/
 
-.#{$fi-css-prefix}-snowflake:before {content: unicode($fi-snowflake);}
-.#{$fi-css-prefix}-snowflake-1:before {content: unicode($fi-snowflake-1);}
-.#{$fi-css-prefix}-snowflake-2:before {content: unicode($fi-snowflake-2);}
-.#{$fi-css-prefix}-snowflake-3:before {content: unicode($fi-snowflake-3);}
-.#{$fi-css-prefix}-snowflake-4:before {content: unicode($fi-snowflake-4);}
-.#{$fi-css-prefix}-snowflake-5:before {content: unicode($fi-snowflake-5);}
-.#{$fi-css-prefix}-snowflake-6:before {content: unicode($fi-snowflake-6);}
-.#{$fi-css-prefix}-snowflake-7:before {content: unicode($fi-snowflake-7);}
-.#{$fi-css-prefix}-snowflake-8:before {content: unicode($fi-snowflake-8);}
-.#{$fi-css-prefix}-zoom-minus:before {content: unicode($fi-zoom-minus);}
-.#{$fi-css-prefix}-zoom-plus:before {content: unicode($fi-zoom-plus);}
-.#{$fi-css-prefix}-check:before {content: unicode($fi-check);}
-.#{$fi-css-prefix}-asterisk:before {content: unicode($fi-asterisk);}
-.#{$fi-css-prefix}-hashtag:before {content: unicode($fi-hashtag);}
+// Brand
+.#{$fi-css-prefix}-acrobat-reader:before {content: unicode($fi-acrobat-reader);}
+.#{$fi-css-prefix}-applemusic:before {content: unicode($fi-applemusic);}
+.#{$fi-css-prefix}-atlassian:before {content: unicode($fi-atlassian);}
+.#{$fi-css-prefix}-aws:before {content: unicode($fi-aws);}
+.#{$fi-css-prefix}-baidu:before {content: unicode($fi-baidu);}
+.#{$fi-css-prefix}-bing:before {content: unicode($fi-bing);}
+.#{$fi-css-prefix}-bower:before {content: unicode($fi-bower);}
+.#{$fi-css-prefix}-dailymotion:before {content: unicode($fi-dailymotion);}
+.#{$fi-css-prefix}-delicious:before {content: unicode($fi-delicious);}
+.#{$fi-css-prefix}-deviantart:before {content: unicode($fi-deviantart);}
+.#{$fi-css-prefix}-disqus:before {content: unicode($fi-disqus);}
+.#{$fi-css-prefix}-flipboard:before {content: unicode($fi-flipboard);}
+.#{$fi-css-prefix}-graphql:before {content: unicode($fi-graphql);}
+.#{$fi-css-prefix}-hexo:before {content: unicode($fi-hexo);}
+.#{$fi-css-prefix}-hipchat:before {content: unicode($fi-hipchat);}
+.#{$fi-css-prefix}-icq:before {content: unicode($fi-icq);}
+.#{$fi-css-prefix}-invision:before {content: unicode($fi-invision);}
+.#{$fi-css-prefix}-jekyll:before {content: unicode($fi-jekyll);}
+.#{$fi-css-prefix}-jira:before {content: unicode($fi-jira);}
+.#{$fi-css-prefix}-json:before {content: unicode($fi-json);}
+.#{$fi-css-prefix}-livestream:before {content: unicode($fi-livestream);}
+.#{$fi-css-prefix}-messenger:before {content: unicode($fi-messenger);}
+.#{$fi-css-prefix}-meteor:before {content: unicode($fi-meteor);}
+.#{$fi-css-prefix}-microsoftonenote:before {content: unicode($fi-microsoftonenote);}
+.#{$fi-css-prefix}-mongodb:before {content: unicode($fi-mongodb);}
+.#{$fi-css-prefix}-netflix:before {content: unicode($fi-netflix);}
+.#{$fi-css-prefix}-nginx:before {content: unicode($fi-nginx);}
+.#{$fi-css-prefix}-odnoklassniki:before {content: unicode($fi-odnoklassniki);}
+.#{$fi-css-prefix}-onedrive:before {content: unicode($fi-onedrive);}
+.#{$fi-css-prefix}-origin:before {content: unicode($fi-origin);}
+.#{$fi-css-prefix}-pingdom:before {content: unicode($fi-pingdom);}
+.#{$fi-css-prefix}-rails:before {content: unicode($fi-rails);}
+.#{$fi-css-prefix}-raspberrypi:before {content: unicode($fi-raspberrypi);}
+.#{$fi-css-prefix}-redis:before {content: unicode($fi-redis);}
+.#{$fi-css-prefix}-redux:before {content: unicode($fi-redux);}
+.#{$fi-css-prefix}-saucelabs:before {content: unicode($fi-saucelabs);}
+.#{$fi-css-prefix}-scorp:before {content: unicode($fi-scorp);}
+.#{$fi-css-prefix}-sentry:before {content: unicode($fi-sentry);}
+.#{$fi-css-prefix}-shazam:before {content: unicode($fi-shazam);}
+.#{$fi-css-prefix}-shopify:before {content: unicode($fi-shopify);}
+.#{$fi-css-prefix}-sinaweibo:before {content: unicode($fi-sinaweibo);}
+.#{$fi-css-prefix}-slides:before {content: unicode($fi-slides);}
+.#{$fi-css-prefix}-sublimetext:before {content: unicode($fi-sublimetext);}
+.#{$fi-css-prefix}-swift:before {content: unicode($fi-swift);}
+.#{$fi-css-prefix}-ted:before {content: unicode($fi-ted);}
+.#{$fi-css-prefix}-telegram:before {content: unicode($fi-telegram);}
+.#{$fi-css-prefix}-tesla:before {content: unicode($fi-tesla);}
+.#{$fi-css-prefix}-tinder:before {content: unicode($fi-tinder);}
+.#{$fi-css-prefix}-treehouse:before {content: unicode($fi-treehouse);}
+.#{$fi-css-prefix}-twoo:before {content: unicode($fi-twoo);}
+.#{$fi-css-prefix}-udacity:before {content: unicode($fi-udacity);}
+.#{$fi-css-prefix}-webstorm:before {content: unicode($fi-webstorm);}
+.#{$fi-css-prefix}-wix:before {content: unicode($fi-wix);}
+.#{$fi-css-prefix}-yandex-international:before {content: unicode($fi-yandex-international);}
+.#{$fi-css-prefix}-yandex:before {content: unicode($fi-yandex);}
 .#{$fi-css-prefix}-ember:before {content: unicode($fi-ember);}
 .#{$fi-css-prefix}-cpanel:before {content: unicode($fi-cpanel);}
 .#{$fi-css-prefix}-viber:before {content: unicode($fi-viber);}
 .#{$fi-css-prefix}-deskpro:before {content: unicode($fi-deskpro);}
 .#{$fi-css-prefix}-discord:before {content: unicode($fi-discord);}
 .#{$fi-css-prefix}-discourse:before {content: unicode($fi-discourse);}
-
 .#{$fi-css-prefix}-adobe:before {content: unicode($fi-adobe);}
 .#{$fi-css-prefix}-algolia:before {content: unicode($fi-algolia);}
 .#{$fi-css-prefix}-atom:before {content: unicode($fi-atom);}
@@ -35,7 +76,6 @@
 .#{$fi-css-prefix}-unity:before {content: unicode($fi-unity);}
 .#{$fi-css-prefix}-unreal-engine:before {content: unicode($fi-unreal-engine);}
 .#{$fi-css-prefix}-webpack:before {content: unicode($fi-webpack);}
-
 .#{$fi-css-prefix}-angelist:before {content: unicode($fi-angelist);}
 .#{$fi-css-prefix}-app-store:before {content: unicode($fi-app-store);}
 .#{$fi-css-prefix}-digg:before {content: unicode($fi-digg);}
@@ -69,126 +109,6 @@
 .#{$fi-css-prefix}-vuejs:before {content: unicode($fi-vuejs);}
 .#{$fi-css-prefix}-microsoft:before {content: unicode($fi-microsoft);}
 .#{$fi-css-prefix}-blogger:before {content: unicode($fi-blogger);}
-
-.#{$fi-css-prefix}-shopping-bag-1:before {content: unicode($fi-shopping-bag-1);}
-.#{$fi-css-prefix}-shopping-bag:before {content: unicode($fi-shopping-bag);}
-.#{$fi-css-prefix}-shopping-barcode:before {content: unicode($fi-shopping-barcode);}
-.#{$fi-css-prefix}-shopping-basket-add:before {content: unicode($fi-shopping-basket-add);}
-.#{$fi-css-prefix}-shopping-basket-remove:before {content: unicode($fi-shopping-basket-remove);}
-.#{$fi-css-prefix}-shopping-basket:before {content: unicode($fi-shopping-basket);}
-.#{$fi-css-prefix}-shopping-package:before {content: unicode($fi-shopping-package);}
-.#{$fi-css-prefix}-shopping-pos-machine:before {content: unicode($fi-shopping-pos-machine);}
-.#{$fi-css-prefix}-shopping-sale:before {content: unicode($fi-shopping-sale);}
-.#{$fi-css-prefix}-shopping-store:before {content: unicode($fi-shopping-store)};
-
-.#{$fi-css-prefix}-confused:before {content: unicode($fi-confused);}
-.#{$fi-css-prefix}-dizzy:before {content: unicode($fi-dizzy);}
-.#{$fi-css-prefix}-expressionless:before {content: unicode($fi-expressionless);}
-.#{$fi-css-prefix}-frowning:before {content: unicode($fi-frowning);}
-.#{$fi-css-prefix}-heart-eyes:before {content: unicode($fi-heart-eyes);}
-.#{$fi-css-prefix}-laughing:before {content: unicode($fi-laughing);}
-.#{$fi-css-prefix}-mad:before {content: unicode($fi-mad);}
-.#{$fi-css-prefix}-nervous:before {content: unicode($fi-nervous);}
-.#{$fi-css-prefix}-neutral:before {content: unicode($fi-neutral);}
-.#{$fi-css-prefix}-open-mouth:before {content: unicode($fi-open-mouth);}
-.#{$fi-css-prefix}-rage:before {content: unicode($fi-rage);}
-.#{$fi-css-prefix}-slightly-smile:before {content: unicode($fi-slightly-smile);}
-.#{$fi-css-prefix}-smiley:before {content: unicode($fi-smiley);}
-.#{$fi-css-prefix}-smiling:before {content: unicode($fi-smiling);}
-.#{$fi-css-prefix}-stuck-out-tongue:before {content: unicode($fi-stuck-out-tongue);}
-.#{$fi-css-prefix}-sunglasses:before {content: unicode($fi-sunglasses);}
-.#{$fi-css-prefix}-surprised:before {content: unicode($fi-surprised);}
-.#{$fi-css-prefix}-tongue:before {content: unicode($fi-tongue);}
-.#{$fi-css-prefix}-wink:before {content: unicode($fi-wink);}
-.#{$fi-css-prefix}-zipper-mouth:before {content: unicode($fi-zipper-mouth);}
-
-.#{$fi-css-prefix}-cloud-down:before {content: unicode($fi-cloud-down);}
-.#{$fi-css-prefix}-cloud-refresh:before {content: unicode($fi-cloud-refresh);}
-.#{$fi-css-prefix}-cloud-up:before {content: unicode($fi-cloud-up);}
-.#{$fi-css-prefix}-cloudy-gusts:before {content: unicode($fi-cloudy-gusts);}
-.#{$fi-css-prefix}-cloudy:before {content: unicode($fi-cloudy);}
-.#{$fi-css-prefix}-compass:before {content: unicode($fi-compass);}
-.#{$fi-css-prefix}-day-cloudy:before {content: unicode($fi-day-cloudy);}
-.#{$fi-css-prefix}-day-haze:before {content: unicode($fi-day-haze);}
-.#{$fi-css-prefix}-day-lightning:before {content: unicode($fi-day-lightning);}
-.#{$fi-css-prefix}-day-rain:before {content: unicode($fi-day-rain);}
-.#{$fi-css-prefix}-day-snow:before {content: unicode($fi-day-snow);}
-.#{$fi-css-prefix}-day-sunny:before {content: unicode($fi-day-sunny);}
-.#{$fi-css-prefix}-fog:before {content: unicode($fi-fog);}
-.#{$fi-css-prefix}-horizon-alt:before {content: unicode($fi-horizon-alt);}
-.#{$fi-css-prefix}-horizon:before {content: unicode($fi-horizon);}
-.#{$fi-css-prefix}-lightning:before {content: unicode($fi-lightning);}
-.#{$fi-css-prefix}-lightnings:before {content: unicode($fi-lightnings);}
-.#{$fi-css-prefix}-night-alt-cloudy:before {content: unicode($fi-night-alt-cloudy);}
-.#{$fi-css-prefix}-night-alt-lightning:before {content: unicode($fi-night-alt-lightning);}
-.#{$fi-css-prefix}-night-alt-rain:before {content: unicode($fi-night-alt-rain);}
-.#{$fi-css-prefix}-night-alt-snow:before {content: unicode($fi-night-alt-snow);}
-.#{$fi-css-prefix}-night-clear:before {content: unicode($fi-night-clear);}
-.#{$fi-css-prefix}-rain:before {content: unicode($fi-rain);}
-.#{$fi-css-prefix}-rainbow:before {content: unicode($fi-rainbow);}
-.#{$fi-css-prefix}-rains:before {content: unicode($fi-rains);}
-.#{$fi-css-prefix}-snow:before {content: unicode($fi-snow);}
-.#{$fi-css-prefix}-snows:before {content: unicode($fi-snows);}
-.#{$fi-css-prefix}-thermometer:before {content: unicode($fi-thermometer);}
-.#{$fi-css-prefix}-umbrella:before {content: unicode($fi-umbrella);}
-.#{$fi-css-prefix}-wind:before {content: unicode($fi-wind);}
-
-.#{$fi-css-prefix}-bold:before {content: unicode($fi-bold);} 
-.#{$fi-css-prefix}-broken-link:before {content: unicode($fi-broken-link);} 
-.#{$fi-css-prefix}-center-align:before {content: unicode($fi-center-align);} 
-.#{$fi-css-prefix}-close:before {content: unicode($fi-close);} 
-.#{$fi-css-prefix}-columns:before {content: unicode($fi-columns);} 
-.#{$fi-css-prefix}-copy:before {content: unicode($fi-copy);} 
-.#{$fi-css-prefix}-eraser:before {content: unicode($fi-eraser);} 
-.#{$fi-css-prefix}-export:before {content: unicode($fi-export);} 
-.#{$fi-css-prefix}-file-1:before {content: unicode($fi-file-1);} 
-.#{$fi-css-prefix}-file-2:before {content: unicode($fi-file-2);} 
-.#{$fi-css-prefix}-folder:before {content: unicode($fi-folder);} 
-.#{$fi-css-prefix}-font:before {content: unicode($fi-font);} 
-.#{$fi-css-prefix}-import:before {content: unicode($fi-import);} 
-.#{$fi-css-prefix}-indent:before {content: unicode($fi-indent);} 
-.#{$fi-css-prefix}-italic:before {content: unicode($fi-italic);} 
-.#{$fi-css-prefix}-justify:before {content: unicode($fi-justify);} 
-.#{$fi-css-prefix}-left-align:before {content: unicode($fi-left-align);} 
-.#{$fi-css-prefix}-link2:before {content: unicode($fi-link2);} 
-.#{$fi-css-prefix}-list-1:before {content: unicode($fi-list-1);} 
-.#{$fi-css-prefix}-list-2:before {content: unicode($fi-list-2);} 
-.#{$fi-css-prefix}-outdent:before {content: unicode($fi-outdent);} 
-.#{$fi-css-prefix}-paperclip:before {content: unicode($fi-paperclip);} 
-.#{$fi-css-prefix}-paragraph:before {content: unicode($fi-paragraph);} 
-.#{$fi-css-prefix}-paste:before {content: unicode($fi-paste);} 
-.#{$fi-css-prefix}-preview:before {content: unicode($fi-preview);} 
-.#{$fi-css-prefix}-print2:before {content: unicode($fi-print2);} 
-.#{$fi-css-prefix}-redo:before {content: unicode($fi-redo);} 
-.#{$fi-css-prefix}-right-align:before {content: unicode($fi-right-align);} 
-.#{$fi-css-prefix}-save-1:before {content: unicode($fi-save-1);} 
-.#{$fi-css-prefix}-save:before {content: unicode($fi-save);} 
-.#{$fi-css-prefix}-scissors2:before {content: unicode($fi-scissors2);} 
-.#{$fi-css-prefix}-strikethrough:before {content: unicode($fi-strikethrough);} 
-.#{$fi-css-prefix}-subscript:before {content: unicode($fi-subscript);} 
-.#{$fi-css-prefix}-superscript:before {content: unicode($fi-superscript);} 
-.#{$fi-css-prefix}-table-1:before {content: unicode($fi-table-1);} 
-.#{$fi-css-prefix}-table-2:before {content: unicode($fi-table-2);} 
-.#{$fi-css-prefix}-text-height:before {content: unicode($fi-text-height);} 
-.#{$fi-css-prefix}-text-width:before {content: unicode($fi-text-width);} 
-.#{$fi-css-prefix}-underline:before {content: unicode($fi-underline);} 
-.#{$fi-css-prefix}-undo:before {content: unicode($fi-undo);} 
-.#{$fi-css-prefix}-curve:before {content: unicode($fi-curve);}
-
-.#{$fi-css-prefix}-curve:before {content: unicode($fi-curve);}
-.#{$fi-css-prefix}-ellipse:before {content: unicode($fi-ellipse);}
-.#{$fi-css-prefix}-rectangle:before {content: unicode($fi-rectangle);}
-.#{$fi-css-prefix}-shield:before {content: unicode($fi-shield);}
-.#{$fi-css-prefix}-audio-description:before {content: unicode($fi-audio-description);}
-.#{$fi-css-prefix}-blind:before {content: unicode($fi-blind);}
-.#{$fi-css-prefix}-braille:before {content: unicode($fi-braille);}
-.#{$fi-css-prefix}-deaf:before {content: unicode($fi-deaf);}
-.#{$fi-css-prefix}-fa-american-sign-language-interpreting:before {content: unicode($fi-fa-american-sign-language-interpreting);}
-.#{$fi-css-prefix}-if_question-circle_383085:before {content: unicode($fi-if_question-circle_383085);}
-.#{$fi-css-prefix}-low-vision:before {content: unicode($fi-low-vision);}
-.#{$fi-css-prefix}-tty:before {content: unicode($fi-tty);}
-.#{$fi-css-prefix}-universal-acces:before {content: unicode($fi-universal-acces);}
-.#{$fi-css-prefix}-wheelchair:before {content: unicode($fi-wheelchair);}
 .#{$fi-css-prefix}-500px:before {content: unicode($fi-500px);}
 .#{$fi-css-prefix}-amazon:before {content: unicode($fi-amazon);}
 .#{$fi-css-prefix}-ampproject:before {content: unicode($fi-ampproject);}
@@ -257,78 +177,10 @@
 .#{$fi-css-prefix}-yahoo:before {content: unicode($fi-yahoo);}
 .#{$fi-css-prefix}-yelp:before {content: unicode($fi-yelp);}
 .#{$fi-css-prefix}-youtube-play:before {content: unicode($fi-youtube-play);}
-.#{$fi-css-prefix}-chrome:before {content: unicode($fi-chrome);}
-.#{$fi-css-prefix}-edge:before {content: unicode($fi-edge);}
-.#{$fi-css-prefix}-firefox:before {content: unicode($fi-firefox);}
-.#{$fi-css-prefix}-internet-explorer:before {content: unicode($fi-internet-explorer);}
-.#{$fi-css-prefix}-opera:before {content: unicode($fi-opera);}
-.#{$fi-css-prefix}-safari:before {content: unicode($fi-safari);}
-.#{$fi-css-prefix}-area-chart:before {content: unicode($fi-area-chart);}
-.#{$fi-css-prefix}-bar-chart:before {content: unicode($fi-bar-chart);}
-.#{$fi-css-prefix}-line-chart:before {content: unicode($fi-line-chart);}
-.#{$fi-css-prefix}-pie-chart-1:before {content: unicode($fi-pie-chart-1);}
-.#{$fi-css-prefix}-pie-chart-2:before {content: unicode($fi-pie-chart-2);}
-.#{$fi-css-prefix}-bitcoin:before {content: unicode($fi-bitcoin);}
-.#{$fi-css-prefix}-dollar:before {content: unicode($fi-dollar);}
-.#{$fi-css-prefix}-euro:before {content: unicode($fi-euro);}
-.#{$fi-css-prefix}-gbp:before {content: unicode($fi-gbp);}
-.#{$fi-css-prefix}-gg:before {content: unicode($fi-gg);}
-.#{$fi-css-prefix}-ils:before {content: unicode($fi-ils);}
-.#{$fi-css-prefix}-inr:before {content: unicode($fi-inr);}
-.#{$fi-css-prefix}-krw:before {content: unicode($fi-krw);}
-.#{$fi-css-prefix}-rouble:before {content: unicode($fi-rouble);}
-.#{$fi-css-prefix}-tl:before {content: unicode($fi-tl);}
-.#{$fi-css-prefix}-yen:before {content: unicode($fi-yen);}
-.#{$fi-css-prefix}-angle-dobule-down:before {content: unicode($fi-angle-dobule-down);}
-.#{$fi-css-prefix}-angle-dobule-left:before {content: unicode($fi-angle-dobule-left);}
-.#{$fi-css-prefix}-angle-dobule-right:before {content: unicode($fi-angle-dobule-right);}
-.#{$fi-css-prefix}-angle-dobule-up:before {content: unicode($fi-angle-dobule-up);}
-.#{$fi-css-prefix}-angle-down:before {content: unicode($fi-angle-down);}
-.#{$fi-css-prefix}-angle-left:before {content: unicode($fi-angle-left);}
-.#{$fi-css-prefix}-angle-right:before {content: unicode($fi-angle-right);}
-.#{$fi-css-prefix}-angle-up:before {content: unicode($fi-angle-up);}
-.#{$fi-css-prefix}-arrow-down-l:before {content: unicode($fi-arrow-down-l);}
-.#{$fi-css-prefix}-arrow-down:before {content: unicode($fi-arrow-down);}
-.#{$fi-css-prefix}-arrow-expand:before {content: unicode($fi-arrow-expand);}
-.#{$fi-css-prefix}-arrow-h:before {content: unicode($fi-arrow-h);}
-.#{$fi-css-prefix}-arrow-left-l:before {content: unicode($fi-arrow-left-l);}
-.#{$fi-css-prefix}-arrow-left:before {content: unicode($fi-arrow-left);}
-.#{$fi-css-prefix}-arrow-move:before {content: unicode($fi-arrow-move);}
-.#{$fi-css-prefix}-arrow-resize:before {content: unicode($fi-arrow-resize);}
-.#{$fi-css-prefix}-arrow-return-left:before {content: unicode($fi-arrow-return-left);}
-.#{$fi-css-prefix}-arrow-return-right:before {content: unicode($fi-arrow-return-right);}
-.#{$fi-css-prefix}-arrow-right-l:before {content: unicode($fi-arrow-right-l);}
-.#{$fi-css-prefix}-arrow-right:before {content: unicode($fi-arrow-right);}
-.#{$fi-css-prefix}-arrow-swap:before {content: unicode($fi-arrow-swap);}
-.#{$fi-css-prefix}-arrow-up-l:before {content: unicode($fi-arrow-up-l);}
-.#{$fi-css-prefix}-arrow-up:before {content: unicode($fi-arrow-up);}
-.#{$fi-css-prefix}-arrow-v:before {content: unicode($fi-arrow-v);}
-.#{$fi-css-prefix}-caret-down:before {content: unicode($fi-caret-down);}
-.#{$fi-css-prefix}-caret-left:before {content: unicode($fi-caret-left);}
-.#{$fi-css-prefix}-caret-right:before {content: unicode($fi-caret-right);}
-.#{$fi-css-prefix}-caret-up:before {content: unicode($fi-caret-up);}
-.#{$fi-css-prefix}-fi:before {content: unicode($fi-fi);}
-.#{$fi-css-prefix}-fontisto:before {content: unicode($fi-fontisto);}
-.#{$fi-css-prefix}-checkbox-active:before {content: unicode($fi-checkbox-active);}
-.#{$fi-css-prefix}-checkbox-passive:before {content: unicode($fi-checkbox-passive);}
-.#{$fi-css-prefix}-radio-btn-active:before {content: unicode($fi-radio-btn-active);}
-.#{$fi-css-prefix}-radio-btn-passive:before {content: unicode($fi-radio-btn-passive);}
-.#{$fi-css-prefix}-genderless:before {content: unicode($fi-genderless);}
-.#{$fi-css-prefix}-intersex:before {content: unicode($fi-intersex);}
-.#{$fi-css-prefix}-mars-double:before {content: unicode($fi-mars-double);}
-.#{$fi-css-prefix}-mars-stroke-h:before {content: unicode($fi-mars-stroke-h);}
-.#{$fi-css-prefix}-mars-stroke-v:before {content: unicode($fi-mars-stroke-v);}
-.#{$fi-css-prefix}-mars-stroke:before {content: unicode($fi-mars-stroke);}
-.#{$fi-css-prefix}-mars:before {content: unicode($fi-mars);}
-.#{$fi-css-prefix}-mercury:before {content: unicode($fi-mercury);}
-.#{$fi-css-prefix}-neuter:before {content: unicode($fi-neuter);}
-.#{$fi-css-prefix}-transgender-alt:before {content: unicode($fi-transgender-alt);}
-.#{$fi-css-prefix}-transgender:before {content: unicode($fi-transgender);}
-.#{$fi-css-prefix}-venus-double:before {content: unicode($fi-venus-double);}
-.#{$fi-css-prefix}-venus-mars:before {content: unicode($fi-venus-mars);}
-.#{$fi-css-prefix}-venus:before {content: unicode($fi-venus);}
-.#{$fi-css-prefix}-dislike:before {content: unicode($fi-dislike);}
-.#{$fi-css-prefix}-like:before {content: unicode($fi-like);}
+
+
+
+// Web Application
 .#{$fi-css-prefix}-camera:before {content: unicode($fi-camera);}
 .#{$fi-css-prefix}-clock:before {content: unicode($fi-clock);}
 .#{$fi-css-prefix}-close-a:before {content: unicode($fi-close-a);}
@@ -389,7 +241,133 @@
 .#{$fi-css-prefix}-zoom:before {content: unicode($fi-zoom);}
 .#{$fi-css-prefix}-adjust:before {content: unicode($fi-adjust);}
 .#{$fi-css-prefix}-recycle:before {content: unicode($fi-recycle);}
+.#{$fi-css-prefix}-pinboard:before {content: unicode($fi-pinboard);}
+.#{$fi-css-prefix}-zoom-minus:before {content: unicode($fi-zoom-minus);}
+.#{$fi-css-prefix}-zoom-plus:before {content: unicode($fi-zoom-plus);}
+.#{$fi-css-prefix}-check:before {content: unicode($fi-check);}
+.#{$fi-css-prefix}-asterisk:before {content: unicode($fi-asterisk);}
+.#{$fi-css-prefix}-hashtag:before {content: unicode($fi-hashtag);}
 
+
+// Shopping
+.#{$fi-css-prefix}-shopping-bag-1:before {content: unicode($fi-shopping-bag-1);}
+.#{$fi-css-prefix}-shopping-bag:before {content: unicode($fi-shopping-bag);}
+.#{$fi-css-prefix}-shopping-barcode:before {content: unicode($fi-shopping-barcode);}
+.#{$fi-css-prefix}-shopping-basket-add:before {content: unicode($fi-shopping-basket-add);}
+.#{$fi-css-prefix}-shopping-basket-remove:before {content: unicode($fi-shopping-basket-remove);}
+.#{$fi-css-prefix}-shopping-basket:before {content: unicode($fi-shopping-basket);}
+.#{$fi-css-prefix}-shopping-package:before {content: unicode($fi-shopping-package);}
+.#{$fi-css-prefix}-shopping-pos-machine:before {content: unicode($fi-shopping-pos-machine);}
+.#{$fi-css-prefix}-shopping-sale:before {content: unicode($fi-shopping-sale);}
+.#{$fi-css-prefix}-shopping-store:before {content: unicode($fi-shopping-store);}
+
+
+// Directional
+.#{$fi-css-prefix}-angle-dobule-down:before {content: unicode($fi-angle-dobule-down);}
+.#{$fi-css-prefix}-angle-dobule-left:before {content: unicode($fi-angle-dobule-left);}
+.#{$fi-css-prefix}-angle-dobule-right:before {content: unicode($fi-angle-dobule-right);}
+.#{$fi-css-prefix}-angle-dobule-up:before {content: unicode($fi-angle-dobule-up);}
+.#{$fi-css-prefix}-angle-down:before {content: unicode($fi-angle-down);}
+.#{$fi-css-prefix}-angle-left:before {content: unicode($fi-angle-left);}
+.#{$fi-css-prefix}-angle-right:before {content: unicode($fi-angle-right);}
+.#{$fi-css-prefix}-angle-up:before {content: unicode($fi-angle-up);}
+.#{$fi-css-prefix}-arrow-down-l:before {content: unicode($fi-arrow-down-l);}
+.#{$fi-css-prefix}-arrow-down:before {content: unicode($fi-arrow-down);}
+.#{$fi-css-prefix}-arrow-expand:before {content: unicode($fi-arrow-expand);}
+.#{$fi-css-prefix}-arrow-h:before {content: unicode($fi-arrow-h);}
+.#{$fi-css-prefix}-arrow-left-l:before {content: unicode($fi-arrow-left-l);}
+.#{$fi-css-prefix}-arrow-left:before {content: unicode($fi-arrow-left);}
+.#{$fi-css-prefix}-arrow-move:before {content: unicode($fi-arrow-move);}
+.#{$fi-css-prefix}-arrow-resize:before {content: unicode($fi-arrow-resize);}
+.#{$fi-css-prefix}-arrow-return-left:before {content: unicode($fi-arrow-return-left);}
+.#{$fi-css-prefix}-arrow-return-right:before {content: unicode($fi-arrow-return-right);}
+.#{$fi-css-prefix}-arrow-right-l:before {content: unicode($fi-arrow-right-l);}
+.#{$fi-css-prefix}-arrow-right:before {content: unicode($fi-arrow-right);}
+.#{$fi-css-prefix}-arrow-swap:before {content: unicode($fi-arrow-swap);}
+.#{$fi-css-prefix}-arrow-up-l:before {content: unicode($fi-arrow-up-l);}
+.#{$fi-css-prefix}-arrow-up:before {content: unicode($fi-arrow-up);}
+.#{$fi-css-prefix}-arrow-v:before {content: unicode($fi-arrow-v);}
+.#{$fi-css-prefix}-caret-down:before {content: unicode($fi-caret-down);}
+.#{$fi-css-prefix}-caret-left:before {content: unicode($fi-caret-left);}
+.#{$fi-css-prefix}-caret-right:before {content: unicode($fi-caret-right);}
+.#{$fi-css-prefix}-caret-up:before {content: unicode($fi-caret-up);}
+.#{$fi-css-prefix}-fi:before {content: unicode($fi-fi);}
+.#{$fi-css-prefix}-fontisto:before {content: unicode($fi-fontisto);}
+
+
+// Form Control
+.#{$fi-css-prefix}-checkbox-active:before {content: unicode($fi-checkbox-active);}
+.#{$fi-css-prefix}-checkbox-passive:before {content: unicode($fi-checkbox-passive);}
+.#{$fi-css-prefix}-radio-btn-active:before {content: unicode($fi-radio-btn-active);}
+.#{$fi-css-prefix}-radio-btn-passive:before {content: unicode($fi-radio-btn-passive);}
+
+
+// Hand
+.#{$fi-css-prefix}-dislike:before {content: unicode($fi-dislike);}
+.#{$fi-css-prefix}-like:before {content: unicode($fi-like);}
+
+
+// Accessibility
+.#{$fi-css-prefix}-audio-description:before {content: unicode($fi-audio-description);}
+.#{$fi-css-prefix}-blind:before {content: unicode($fi-blind);}
+.#{$fi-css-prefix}-braille:before {content: unicode($fi-braille);}
+.#{$fi-css-prefix}-deaf:before {content: unicode($fi-deaf);}
+.#{$fi-css-prefix}-fa-american-sign-language-interpreting:before {content: unicode($fi-fa-american-sign-language-interpreting);}
+.#{$fi-css-prefix}-low-vision:before {content: unicode($fi-low-vision);}
+.#{$fi-css-prefix}-tty:before {content: unicode($fi-tty);}
+.#{$fi-css-prefix}-universal-acces:before {content: unicode($fi-universal-acces);}
+.#{$fi-css-prefix}-wheelchair:before {content: unicode($fi-wheelchair);}
+
+
+// Chart
+.#{$fi-css-prefix}-area-chart:before {content: unicode($fi-area-chart);}
+.#{$fi-css-prefix}-bar-chart:before {content: unicode($fi-bar-chart);}
+.#{$fi-css-prefix}-line-chart:before {content: unicode($fi-line-chart);}
+.#{$fi-css-prefix}-pie-chart-1:before {content: unicode($fi-pie-chart-1);}
+.#{$fi-css-prefix}-pie-chart-2:before {content: unicode($fi-pie-chart-2);}
+
+
+// Browser
+.#{$fi-css-prefix}-chrome:before {content: unicode($fi-chrome);}
+.#{$fi-css-prefix}-edge:before {content: unicode($fi-edge);}
+.#{$fi-css-prefix}-firefox:before {content: unicode($fi-firefox);}
+.#{$fi-css-prefix}-internet-explorer:before {content: unicode($fi-internet-explorer);}
+.#{$fi-css-prefix}-opera:before {content: unicode($fi-opera);}
+.#{$fi-css-prefix}-safari:before {content: unicode($fi-safari);}
+
+
+// Currency
+.#{$fi-css-prefix}-bitcoin:before {content: unicode($fi-bitcoin);}
+.#{$fi-css-prefix}-dollar:before {content: unicode($fi-dollar);}
+.#{$fi-css-prefix}-euro:before {content: unicode($fi-euro);}
+.#{$fi-css-prefix}-gbp:before {content: unicode($fi-gbp);}
+.#{$fi-css-prefix}-gg:before {content: unicode($fi-gg);}
+.#{$fi-css-prefix}-ils:before {content: unicode($fi-ils);}
+.#{$fi-css-prefix}-inr:before {content: unicode($fi-inr);}
+.#{$fi-css-prefix}-krw:before {content: unicode($fi-krw);}
+.#{$fi-css-prefix}-rouble:before {content: unicode($fi-rouble);}
+.#{$fi-css-prefix}-tl:before {content: unicode($fi-tl);}
+.#{$fi-css-prefix}-yen:before {content: unicode($fi-yen);}
+
+
+// Gender
+.#{$fi-css-prefix}-genderless:before {content: unicode($fi-genderless);}
+.#{$fi-css-prefix}-intersex:before {content: unicode($fi-intersex);}
+.#{$fi-css-prefix}-mars-double:before {content: unicode($fi-mars-double);}
+.#{$fi-css-prefix}-mars-stroke-h:before {content: unicode($fi-mars-stroke-h);}
+.#{$fi-css-prefix}-mars-stroke-v:before {content: unicode($fi-mars-stroke-v);}
+.#{$fi-css-prefix}-mars-stroke:before {content: unicode($fi-mars-stroke);}
+.#{$fi-css-prefix}-mars:before {content: unicode($fi-mars);}
+.#{$fi-css-prefix}-mercury:before {content: unicode($fi-mercury);}
+.#{$fi-css-prefix}-neuter:before {content: unicode($fi-neuter);}
+.#{$fi-css-prefix}-transgender-alt:before {content: unicode($fi-transgender-alt);}
+.#{$fi-css-prefix}-transgender:before {content: unicode($fi-transgender);}
+.#{$fi-css-prefix}-venus-double:before {content: unicode($fi-venus-double);}
+.#{$fi-css-prefix}-venus-mars:before {content: unicode($fi-venus-mars);}
+.#{$fi-css-prefix}-venus:before {content: unicode($fi-venus);}
+
+
+// Payment
 .#{$fi-css-prefix}-american-express:before {content: unicode($fi-american-express);}
 .#{$fi-css-prefix}-credit-card:before {content: unicode($fi-credit-card);}
 .#{$fi-css-prefix}-google-wallet:before {content: unicode($fi-google-wallet);}
@@ -405,6 +383,8 @@
 .#{$fi-css-prefix}-discover:before {content: unicode($fi-discover);}
 .#{$fi-css-prefix}-jcb:before {content: unicode($fi-jcb);}
 
+
+// Player
 .#{$fi-css-prefix}-backward:before {content: unicode($fi-backward);}
 .#{$fi-css-prefix}-eject:before {content: unicode($fi-eject);}
 .#{$fi-css-prefix}-equalizer:before {content: unicode($fi-equalizer);}
@@ -430,17 +410,8 @@
 .#{$fi-css-prefix}-volume-up:before {content: unicode($fi-volume-up);}
 .#{$fi-css-prefix}-airplay:before {content: unicode($fi-airplay);}
 
-.#{$fi-css-prefix}-circle-o-notch:before {content: unicode($fi-circle-o-notch);}
-.#{$fi-css-prefix}-propeller-1:before {content: unicode($fi-propeller-1);}
-.#{$fi-css-prefix}-propeller-2:before {content: unicode($fi-propeller-2);}
-.#{$fi-css-prefix}-propeller-3:before {content: unicode($fi-propeller-3);}
-.#{$fi-css-prefix}-propeller-4:before {content: unicode($fi-propeller-4);}
-.#{$fi-css-prefix}-spinner-cog:before {content: unicode($fi-spinner-cog);}
-.#{$fi-css-prefix}-spinner-fidget:before {content: unicode($fi-spinner-fidget);}
-.#{$fi-css-prefix}-spinner-refresh:before {content: unicode($fi-spinner-refresh);}
-.#{$fi-css-prefix}-spinner-rotate-forward:before {content: unicode($fi-spinner-rotate-forward);}
-.#{$fi-css-prefix}-spinner:before {content: unicode($fi-spinner);}
 
+// Transportation
 .#{$fi-css-prefix}-automobile:before {content: unicode($fi-automobile);}
 .#{$fi-css-prefix}-bicycle:before {content: unicode($fi-bicycle);}
 .#{$fi-css-prefix}-bus:before {content: unicode($fi-bus);}
@@ -456,3 +427,134 @@
 .#{$fi-css-prefix}-train:before {content: unicode($fi-train);}
 .#{$fi-css-prefix}-truck:before {content: unicode($fi-truck);}
 .#{$fi-css-prefix}-yacht:before {content: unicode($fi-yacht);}
+
+
+// Spinner
+.#{$fi-css-prefix}-circle-o-notch:before {content: unicode($fi-circle-o-notch);}
+.#{$fi-css-prefix}-propeller-1:before {content: unicode($fi-propeller-1);}
+.#{$fi-css-prefix}-propeller-2:before {content: unicode($fi-propeller-2);}
+.#{$fi-css-prefix}-propeller-3:before {content: unicode($fi-propeller-3);}
+.#{$fi-css-prefix}-propeller-4:before {content: unicode($fi-propeller-4);}
+.#{$fi-css-prefix}-spinner-cog:before {content: unicode($fi-spinner-cog);}
+.#{$fi-css-prefix}-spinner-fidget:before {content: unicode($fi-spinner-fidget);}
+.#{$fi-css-prefix}-spinner-refresh:before {content: unicode($fi-spinner-refresh);}
+.#{$fi-css-prefix}-spinner-rotate-forward:before {content: unicode($fi-spinner-rotate-forward);}
+.#{$fi-css-prefix}-spinner:before {content: unicode($fi-spinner);}
+
+
+// Text Editor
+.#{$fi-css-prefix}-bold:before {content: unicode($fi-bold);}
+.#{$fi-css-prefix}-broken-link:before {content: unicode($fi-broken-link);}
+.#{$fi-css-prefix}-center-align:before {content: unicode($fi-center-align);}
+.#{$fi-css-prefix}-close:before {content: unicode($fi-close);}
+.#{$fi-css-prefix}-columns:before {content: unicode($fi-columns);}
+.#{$fi-css-prefix}-copy:before {content: unicode($fi-copy);}
+.#{$fi-css-prefix}-eraser:before {content: unicode($fi-eraser);}
+.#{$fi-css-prefix}-export:before {content: unicode($fi-export);}
+.#{$fi-css-prefix}-file-1:before {content: unicode($fi-file-1);}
+.#{$fi-css-prefix}-file-2:before {content: unicode($fi-file-2);}
+.#{$fi-css-prefix}-folder:before {content: unicode($fi-folder);}
+.#{$fi-css-prefix}-font:before {content: unicode($fi-font);}
+.#{$fi-css-prefix}-import:before {content: unicode($fi-import);}
+.#{$fi-css-prefix}-indent:before {content: unicode($fi-indent);}
+.#{$fi-css-prefix}-italic:before {content: unicode($fi-italic);}
+.#{$fi-css-prefix}-justify:before {content: unicode($fi-justify);}
+.#{$fi-css-prefix}-left-align:before {content: unicode($fi-left-align);}
+.#{$fi-css-prefix}-link2:before {content: unicode($fi-link2);}
+.#{$fi-css-prefix}-list-1:before {content: unicode($fi-list-1);}
+.#{$fi-css-prefix}-list-2:before {content: unicode($fi-list-2);}
+.#{$fi-css-prefix}-outdent:before {content: unicode($fi-outdent);}
+.#{$fi-css-prefix}-paperclip:before {content: unicode($fi-paperclip);}
+.#{$fi-css-prefix}-paragraph:before {content: unicode($fi-paragraph);}
+.#{$fi-css-prefix}-paste:before {content: unicode($fi-paste);}
+.#{$fi-css-prefix}-preview:before {content: unicode($fi-preview);}
+.#{$fi-css-prefix}-print2:before {content: unicode($fi-print2);}
+.#{$fi-css-prefix}-redo:before {content: unicode($fi-redo);}
+.#{$fi-css-prefix}-right-align:before {content: unicode($fi-right-align);}
+.#{$fi-css-prefix}-save-1:before {content: unicode($fi-save-1);}
+.#{$fi-css-prefix}-save:before {content: unicode($fi-save);}
+.#{$fi-css-prefix}-scissors2:before {content: unicode($fi-scissors2);}
+.#{$fi-css-prefix}-strikethrough:before {content: unicode($fi-strikethrough);}
+.#{$fi-css-prefix}-subscript:before {content: unicode($fi-subscript);}
+.#{$fi-css-prefix}-superscript:before {content: unicode($fi-superscript);}
+.#{$fi-css-prefix}-table-1:before {content: unicode($fi-table-1);}
+.#{$fi-css-prefix}-table-2:before {content: unicode($fi-table-2);}
+.#{$fi-css-prefix}-text-height:before {content: unicode($fi-text-height);}
+.#{$fi-css-prefix}-text-width:before {content: unicode($fi-text-width);}
+.#{$fi-css-prefix}-underline:before {content: unicode($fi-underline);}
+.#{$fi-css-prefix}-undo:before {content: unicode($fi-undo);}
+
+
+// Weather Foreces
+.#{$fi-css-prefix}-cloud-down:before {content: unicode($fi-cloud-down);}
+.#{$fi-css-prefix}-cloud-refresh:before {content: unicode($fi-cloud-refresh);}
+.#{$fi-css-prefix}-cloud-up:before {content: unicode($fi-cloud-up);}
+.#{$fi-css-prefix}-cloudy-gusts:before {content: unicode($fi-cloudy-gusts);}
+.#{$fi-css-prefix}-cloudy:before {content: unicode($fi-cloudy);}
+.#{$fi-css-prefix}-compass:before {content: unicode($fi-compass);}
+.#{$fi-css-prefix}-day-cloudy:before {content: unicode($fi-day-cloudy);}
+.#{$fi-css-prefix}-day-haze:before {content: unicode($fi-day-haze);}
+.#{$fi-css-prefix}-day-lightning:before {content: unicode($fi-day-lightning);}
+.#{$fi-css-prefix}-day-rain:before {content: unicode($fi-day-rain);}
+.#{$fi-css-prefix}-day-snow:before {content: unicode($fi-day-snow);}
+.#{$fi-css-prefix}-day-sunny:before {content: unicode($fi-day-sunny);}
+.#{$fi-css-prefix}-fog:before {content: unicode($fi-fog);}
+.#{$fi-css-prefix}-horizon-alt:before {content: unicode($fi-horizon-alt);}
+.#{$fi-css-prefix}-horizon:before {content: unicode($fi-horizon);}
+.#{$fi-css-prefix}-lightning:before {content: unicode($fi-lightning);}
+.#{$fi-css-prefix}-lightnings:before {content: unicode($fi-lightnings);}
+.#{$fi-css-prefix}-night-alt-cloudy:before {content: unicode($fi-night-alt-cloudy);}
+.#{$fi-css-prefix}-night-alt-lightning:before {content: unicode($fi-night-alt-lightning);}
+.#{$fi-css-prefix}-night-alt-rain:before {content: unicode($fi-night-alt-rain);}
+.#{$fi-css-prefix}-night-alt-snow:before {content: unicode($fi-night-alt-snow);}
+.#{$fi-css-prefix}-night-clear:before {content: unicode($fi-night-clear);}
+.#{$fi-css-prefix}-rain:before {content: unicode($fi-rain);}
+.#{$fi-css-prefix}-rainbow:before {content: unicode($fi-rainbow);}
+.#{$fi-css-prefix}-rains:before {content: unicode($fi-rains);}
+.#{$fi-css-prefix}-snow:before {content: unicode($fi-snow);}
+.#{$fi-css-prefix}-snows:before {content: unicode($fi-snows);}
+.#{$fi-css-prefix}-thermometer:before {content: unicode($fi-thermometer);}
+.#{$fi-css-prefix}-umbrella:before {content: unicode($fi-umbrella);}
+.#{$fi-css-prefix}-wind:before {content: unicode($fi-wind);}
+
+
+// Emoji
+.#{$fi-css-prefix}-confused:before {content: unicode($fi-confused);}
+.#{$fi-css-prefix}-dizzy:before {content: unicode($fi-dizzy);}
+.#{$fi-css-prefix}-expressionless:before {content: unicode($fi-expressionless);}
+.#{$fi-css-prefix}-frowning:before {content: unicode($fi-frowning);}
+.#{$fi-css-prefix}-heart-eyes:before {content: unicode($fi-heart-eyes);}
+.#{$fi-css-prefix}-laughing:before {content: unicode($fi-laughing);}
+.#{$fi-css-prefix}-mad:before {content: unicode($fi-mad);}
+.#{$fi-css-prefix}-nervous:before {content: unicode($fi-nervous);}
+.#{$fi-css-prefix}-neutral:before {content: unicode($fi-neutral);}
+.#{$fi-css-prefix}-open-mouth:before {content: unicode($fi-open-mouth);}
+.#{$fi-css-prefix}-rage:before {content: unicode($fi-rage);}
+.#{$fi-css-prefix}-slightly-smile:before {content: unicode($fi-slightly-smile);}
+.#{$fi-css-prefix}-smiley:before {content: unicode($fi-smiley);}
+.#{$fi-css-prefix}-smiling:before {content: unicode($fi-smiling);}
+.#{$fi-css-prefix}-stuck-out-tongue:before {content: unicode($fi-stuck-out-tongue);}
+.#{$fi-css-prefix}-sunglasses:before {content: unicode($fi-sunglasses);}
+.#{$fi-css-prefix}-surprised:before {content: unicode($fi-surprised);}
+.#{$fi-css-prefix}-tongue:before {content: unicode($fi-tongue);}
+.#{$fi-css-prefix}-wink:before {content: unicode($fi-wink);}
+.#{$fi-css-prefix}-zipper-mouth:before {content: unicode($fi-zipper-mouth);}
+
+
+// Snowflake
+.#{$fi-css-prefix}-snowflake:before {content: unicode($fi-snowflake);}
+.#{$fi-css-prefix}-snowflake-1:before {content: unicode($fi-snowflake-1);}
+.#{$fi-css-prefix}-snowflake-2:before {content: unicode($fi-snowflake-2);}
+.#{$fi-css-prefix}-snowflake-3:before {content: unicode($fi-snowflake-3);}
+.#{$fi-css-prefix}-snowflake-4:before {content: unicode($fi-snowflake-4);}
+.#{$fi-css-prefix}-snowflake-5:before {content: unicode($fi-snowflake-5);}
+.#{$fi-css-prefix}-snowflake-6:before {content: unicode($fi-snowflake-6);}
+.#{$fi-css-prefix}-snowflake-7:before {content: unicode($fi-snowflake-7);}
+.#{$fi-css-prefix}-snowflake-8:before {content: unicode($fi-snowflake-8);}
+
+
+// Other
+.#{$fi-css-prefix}-curve:before {content: unicode($fi-curve);}
+.#{$fi-css-prefix}-ellipse:before {content: unicode($fi-ellipse);}
+.#{$fi-css-prefix}-rectangle:before {content: unicode($fi-rectangle);}
+.#{$fi-css-prefix}-shield:before {content: unicode($fi-shield);}
