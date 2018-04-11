@@ -146,7 +146,7 @@ Designed and built by @kenangundogan, @ulasderin and @mstfsnc
   </p>
 </p>
 
-## ToDo List (font width css)
+## ToDo List (font with css)
 - [x] font width css (**completed**)
 - [x] scss to css (**completed**)
 - [x] less to css (**completed**)
