@@ -145,3 +145,41 @@ Designed and built by @kenangundogan, @ulasderin and @mstfsnc
     <a href="https://addons.opera.com/tr/extensions/details/fontisto/"><strong>Fontisto Opera Addon</strong></a> &middot;
   </p>
 </p>
+
+## ToDo List (font width css)
+- [x] font width css (**completed**)
+- [x] scss to css (**completed**)
+- [x] less to css (**completed**)
+- [x] stylus to css (**completed**)
+
+## ToDo List (Advanced Packaged)
+- [ ] Svg with js
+- [ ] Svg sprite
+- [ ] Vue.js
+- [ ] React
+- [ ] Angular
+
+## ToDo List (icon set)
+- [x] Brand (**completed**)
+- [x] Browser (**completed**)
+- [x] Accessibility (**completed**)
+- [x] Chart (**completed**)
+- [x] currency (**completed**)
+- [x] Directional (**completed**)
+- [x] Form Control (**completed**)
+- [x] Gender (**completed**)
+- [x] Hand (**completed**)
+- [x] Payment (**completed**)
+- [x] Player (**completed**)
+- [x] Spinner (**completed**)
+- [x] Transportation (**completed**)
+- [x] Web Application (**completed**)
+- [x] Text Editor (**completed**)
+- [x] Weather Foreces (**completed**)
+- [x] Emoji (**completed**)
+- [x] Shopping (**completed**)
+- [x] Snow Flake (**completed**)
+- [ ] Sports
+- [ ] Medical
+- [ ] Eat
+- [ ] Shapes
