@@ -1,13 +1,100 @@
 /* fontisto icon list*/
+ 
+ // Icon Category List
 
-@each $icon-category in $iconList{
-   @each $icon-name, $icon-unicode in $icon-category{
+
+// fontisto all icon
+@mixin fontisto(){ 
+    @each $icon-category in $iconList{
+        @each $icon-name, $icon-unicode in $icon-category{
+            .#{$fi-css-prefix}-#{$icon-name} {
+                &:before{
+                    content: unicode($icon-unicode);
+                }
+            } 
+        } 
+    }
+}
+
+
+// fontisto brands icon
+@mixin fontisto-brands(){
+   @each $icon-name, $icon-unicode in $brands{
         .#{$fi-css-prefix}-#{$icon-name} {
             &:before{
                 content: unicode($icon-unicode);
             }
         } 
-    } 
+    }  
+}
+
+
+// fontisto editors icon
+@mixin fontisto-editors(){
+   @each $icon-name, $icon-unicode in $editors{
+        .#{$fi-css-prefix}-#{$icon-name} {
+            &:before{
+                content: unicode($icon-unicode);
+            }
+        } 
+    }  
+} 
+
+
+// fontisto emoji icon
+@mixin fontisto-emoji(){
+   @each $icon-name, $icon-unicode in $emoji{
+        .#{$fi-css-prefix}-#{$icon-name} {
+            &:before{
+                content: unicode($icon-unicode);
+            }
+        } 
+    }  
+} 
+
+
+// fontisto player icon
+@mixin fontisto-player(){
+   @each $icon-name, $icon-unicode in $player{
+        .#{$fi-css-prefix}-#{$icon-name} {
+            &:before{
+                content: unicode($icon-unicode);
+            }
+        } 
+    }  
+} 
+
+
+// fontisto weather icon
+@mixin fontisto-weather(){
+   @each $icon-name, $icon-unicode in $weather{
+        .#{$fi-css-prefix}-#{$icon-name} {
+            &:before{
+                content: unicode($icon-unicode);
+            }
+        } 
+    }  
 } 
 
  
+@if $font-name == "fontisto"{
+    @include fontisto();
+}
+@else if $font-name == "fontisto-brands"{
+    @include fontisto-brands();
+}
+@else if $font-name == "fontisto-editors"{
+    @include fontisto-editors();
+}
+@else if $font-name == "fontisto-emoji"{
+    @include fontisto-emoji();
+}
+@else if $font-name == "fontisto-player"{
+    @include fontisto-player();
+}
+@else if $font-name == "fontisto-weather"{
+    @include fontisto-weather();
+}
+@else{
+    @include fontisto();
+}

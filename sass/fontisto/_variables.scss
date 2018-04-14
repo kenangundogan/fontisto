@@ -5,7 +5,7 @@ $fi-font-path:              "../../fonts/" !default;
 $fi-font-size:              14px !default; 
 $fi-font-size-int:          14;
 $fi-font-line-height:       1 !default;
-$fi-font-version:           "301" !default;
+$fi-font-version:           "302" !default;
 $fi-font-border-color:      #dedede !default; 
 $fi-font-color-inverse:     #fff !default;
 $fi-font-li-width:          (30em / 14) !default;
@@ -18,7 +18,7 @@ $fi-font-li-width:          (30em / 14) !default;
 // icon maps (array list)
 
 // Brand
-$brand:(
+$brands:(
     acrobat-reader: (\eabf),
     applemusic: (\eac0),
     atlassian: (\eac1),
@@ -650,9 +650,8 @@ $shapes:(
     shield: (\ea0a)
 );
 
-// Icon Category List
 $iconList:(
-    $brand,
+    $brands,
     $interfaces,
     $shopping,
     $arrows,
@@ -670,5 +669,5 @@ $iconList:(
     $transportation,
     $spinner,
     $snowflake,
-    $shapes,
+    $shapes
 );
