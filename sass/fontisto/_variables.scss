@@ -5,7 +5,7 @@ $fi-font-path:              "../../fonts/" !default;
 $fi-font-size:              14px !default; 
 $fi-font-size-int:          14;
 $fi-font-line-height:       1 !default;
-$fi-font-version:           "201" !default;
+$fi-font-version:           "301" !default;
 $fi-font-border-color:      #dedede !default; 
 $fi-font-color-inverse:     #fff !default;
 $fi-font-li-width:          (30em / 14) !default;
@@ -16,8 +16,9 @@ $fi-font-li-width:          (30em / 14) !default;
 }
 
 // icon maps (array list)
-$icon-list: (
-    // Brand
+
+// Brand
+$brand:(
     acrobat-reader: (\eabf),
     applemusic: (\eac0),
     atlassian: (\eac1),
@@ -194,10 +195,13 @@ $icon-list: (
     yahoo: (\e94b),
     yelp: (\e94c),
     youtube-play: (\e94d),
+    cocoapods: (\eb28),
+    composer: (\eb29),
+    yarn: (\eb2a)
+);
 
-
-
-    // Web Application
+// Interfaces
+$interfaces:(
     language: (\ea27),
     toggle-off: (\ea2c),
     toggle-on: (\ea7d),
@@ -252,7 +256,6 @@ $icon-list: (
     tv: (\eb25),
     upload: (\eb26),
     user-secret: (\eb27),
-
     camera: (\e996),
     clock: (\e997),
     close-a: (\e998),
@@ -267,7 +270,7 @@ $icon-list: (
     earth: (\e9a1),
     email: (\e9a2),
     eye: (\e9a3),
-    famale: (\e9a4),
+    female: (\e9a4),
     favorite: (\e9a5),
     filter: (\e9a6),
     fire: (\e9a7),
@@ -319,9 +322,14 @@ $icon-list: (
     check: (\eab4),
     asterisk: (\eab5),
     hashtag: (\eab6),
+    checkbox-active: (\e982),
+    checkbox-passive: (\e983),
+    radio-btn-active: (\e984),
+    radio-btn-passive: (\e985)
+);
 
-
-    // Shopping
+// Shopping
+$shopping:(
     shopping-bag-1: (\ea6b),
     shopping-bag: (\ea6c),
     shopping-barcode: (\ea71),
@@ -331,10 +339,11 @@ $icon-list: (
     shopping-package: (\ea75),
     shopping-pos-machine: (\ea76),
     shopping-sale: (\ea77),
-    shopping-store: (\ea78),
+    shopping-store: (\ea78)
+);
 
-
-    // Directional
+// Arrows
+$arrows:(
     angle-dobule-down: (\e964),
     angle-dobule-left: (\e965),
     angle-dobule-right: (\e966),
@@ -364,99 +373,11 @@ $icon-list: (
     caret-right: (\e97e),
     caret-up: (\e97f),
     fi: (\e980),
-    fontisto: (\e981),
+    fontisto: (\e981)
+);
 
-
-    // Form Control
-    checkbox-active: (\e982),
-    checkbox-passive: (\e983),
-    radio-btn-active: (\e984),
-    radio-btn-passive: (\e985),
-
-
-    // Hand
-    dislike: (\e994),
-    like: (\e995),
-
-
-    // Accessibility
-    audio-description: (\e900),
-    blind: (\e901),
-    braille: (\e902),
-    deaf: (\e903),
-    fa-american-sign-language-interpreting: (\e904),
-    low-vision: (\e906),
-    tty: (\e907),
-    universal-acces: (\e908),
-    wheelchair: (\e909),
-
-
-    // Chart
-    area-chart: (\e954),
-    bar-chart: (\e955),
-    line-chart: (\e956),
-    pie-chart-1: (\e957),
-    pie-chart-2: (\e958),
-
-
-    // Browser
-    chrome: (\e94e),
-    edge: (\e94f),
-    firefox: (\e950),
-    internet-explorer: (\e951),
-    opera: (\e952),
-    safari: (\e953),
-
-
-    // Currency
-    bitcoin: (\e959),
-    dollar: (\e95a),
-    euro: (\e95b),
-    gbp: (\e95c),
-    gg: (\e95d),
-    ils: (\e95e),
-    inr: (\e95f),
-    krw: (\e960),
-    rouble: (\e961),
-    tl: (\e962),
-    yen: (\e963),
-
-
-    // Gender
-    genderless: (\e986),
-    intersex: (\e987),
-    mars-double: (\e988),
-    mars-stroke-h: (\e989),
-    mars-stroke-v: (\e98a),
-    mars-stroke: (\e98b),
-    mars: (\e98c),
-    mercury: (\e98d),
-    neuter: (\e98e),
-    transgender-alt: (\e98f),
-    transgender: (\e990),
-    venus-double: (\e991),
-    venus-mars: (\e992),
-    venus: (\e993),
-
-
-    // Payment
-    american-express: (\e9d0),
-    credit-card: (\e9d1),
-    google-wallet: (\e9d2),
-    iyzigo: (\e9d3),
-    mastercard: (\e9d4),
-    paypal-p: (\e9d5),
-    paypal: (\e9d6),
-    payu: (\e9d7),
-    troy: (\e9d8),
-    visa: (\e9d9),
-    dinners-club: (\ea6a),
-    apple-pay: (\ea69),
-    discover: (\ea6d),
-    jcb: (\ea6e),
-
-
-    // Player
+// Player
+$player: (
     backward: (\e9da),
     eject: (\e9db),
     equalizer: (\e9dc),
@@ -480,41 +401,12 @@ $icon-list: (
     volume-mute: (\e9ee),
     volume-off: (\e9ef),
     volume-up: (\e9f0),
-    airplay: (\ea68),
+    airplay: (\ea68)
+);
 
 
-    // Transportation
-    automobile: (\e9fb),
-    bicycle: (\e9fc),
-    bus: (\e9fd),
-    car: (\e9fe),
-    helicopter: (\e9ff),
-    metro: (\ea00),
-    motorcycle: (\ea01),
-    plane: (\ea02),
-    rocket: (\ea03),
-    ship: (\ea04),
-    subway: (\ea05),
-    taxi: (\ea06),
-    train: (\ea07),
-    truck: (\ea08),
-    yacht: (\ea09),
-
-
-    // Spinner
-    circle-o-notch: (\e9f1),
-    propeller-1: (\e9f2),
-    propeller-2: (\e9f3),
-    propeller-3: (\e9f4),
-    propeller-4: (\e9f5),
-    spinner-cog: (\e9f6),
-    spinner-fidget: (\e9f7),
-    spinner-refresh: (\e9f8),
-    spinner-rotate-forward: (\e9f9),
-    spinner: (\e9fa),
-
-
-    // Text Editor
+// Editors
+$editors:(
     bold: (\ea0e),
     broken-link: (\ea0f),
     center-align: (\ea10),
@@ -554,10 +446,11 @@ $icon-list: (
     text-height: (\ea32),
     text-width: (\ea33),
     underline: (\ea34),
-    undo: (\ea35),
+    undo: (\ea35)
+);
 
-
-    // Weather Foreces
+// Weather
+$weather:(
     cloud-down: (\ea36),
     cloud-refresh: (\ea37),
     cloud-up: (\ea38),
@@ -587,10 +480,11 @@ $icon-list: (
     snows: (\ea50),
     thermometer: (\ea51),
     umbrella: (\ea52),
-    wind: (\ea53),
+    wind: (\ea53)
+);
 
-
-    // Emoji
+// Emoji
+$emoji:(
     confused: (\ea54),
     dizzy: (\ea55),
     expressionless: (\ea56),
@@ -610,10 +504,133 @@ $icon-list: (
     surprised: (\ea64),
     tongue: (\ea65),
     wink: (\ea66),
-    zipper-mouth: (\ea67),
+    zipper-mouth: (\ea67)   
+);
 
+// Payment
+$payment:(
+    american-express: (\e9d0),
+    credit-card: (\e9d1),
+    google-wallet: (\e9d2),
+    iyzigo: (\e9d3),
+    mastercard: (\e9d4),
+    paypal-p: (\e9d5),
+    paypal: (\e9d6),
+    payu: (\e9d7),
+    troy: (\e9d8),
+    visa: (\e9d9),
+    dinners-club: (\ea6a),
+    apple-pay: (\ea69),
+    discover: (\ea6d),
+    jcb: (\ea6e)    
+);
 
-    // Snowflake
+// Hand
+$hand:(
+    dislike: (\e994),
+    like: (\e995)
+);
+
+// Accessibility
+$accessibility:(
+    audio-description: (\e900),
+    blind: (\e901),
+    braille: (\e902),
+    deaf: (\e903),
+    fa-american-sign-language-interpreting: (\e904),
+    low-vision: (\e906),
+    tty: (\e907),
+    universal-acces: (\e908),
+    wheelchair: (\e909)
+);
+
+// Chart
+$chart:(
+    area-chart: (\e954),
+    bar-chart: (\e955),
+    line-chart: (\e956),
+    pie-chart-1: (\e957),
+    pie-chart-2: (\e958)
+);
+
+// Browser
+$browser:(
+    chrome: (\e94e),
+    edge: (\e94f),
+    firefox: (\e950),
+    internet-explorer: (\e951),
+    opera: (\e952),
+    safari: (\e953)
+);
+
+// Currency
+$currency:(
+    bitcoin: (\e959),
+    dollar: (\e95a),
+    euro: (\e95b),
+    gbp: (\e95c),
+    gg: (\e95d),
+    ils: (\e95e),
+    inr: (\e95f),
+    krw: (\e960),
+    rouble: (\e961),
+    tl: (\e962),
+    yen: (\e963)
+);
+
+// Gender
+$gender:(
+    genderless: (\e986),
+    intersex: (\e987),
+    mars-double: (\e988),
+    mars-stroke-h: (\e989),
+    mars-stroke-v: (\e98a),
+    mars-stroke: (\e98b),
+    mars: (\e98c),
+    mercury: (\e98d),
+    neuter: (\e98e),
+    transgender-alt: (\e98f),
+    transgender: (\e990),
+    venus-double: (\e991),
+    venus-mars: (\e992),
+    venus: (\e993)
+);
+
+// Transportation
+$transportation:(
+    automobile: (\e9fb),
+    bicycle: (\e9fc),
+    bus: (\e9fd),
+    car: (\e9fe),
+    helicopter: (\e9ff),
+    metro: (\ea00),
+    motorcycle: (\ea01),
+    plane: (\ea02),
+    rocket: (\ea03),
+    ship: (\ea04),
+    subway: (\ea05),
+    taxi: (\ea06),
+    train: (\ea07),
+    truck: (\ea08),
+    yacht: (\ea09)
+);
+
+// Spinner
+$spinner:(
+    circle-o-notch: (\e9f1),
+    propeller-1: (\e9f2),
+    propeller-2: (\e9f3),
+    propeller-3: (\e9f4),
+    propeller-4: (\e9f5),
+    spinner-cog: (\e9f6),
+    spinner-fidget: (\e9f7),
+    spinner-refresh: (\e9f8),
+    spinner-rotate-forward: (\e9f9),
+    spinner: (\e9fa)
+);
+
+// Snowflake
+$snowflake:(
     snowflake: (\eab1),
     snowflake-1: (\eaa9),
     snowflake-2: (\eaaa),
@@ -622,15 +639,36 @@ $icon-list: (
     snowflake-5: (\eaad),
     snowflake-6: (\eaae),
     snowflake-7: (\eaaf),
-    snowflake-8: (\eab0),
+    snowflake-8: (\eab0)
+);
 
-
-    // Other
+// Shapes
+$shapes:(
     curve: (\ea0b), 
     ellipse: (\ea0c),
     rectangle: (\ea0d),
     shield: (\ea0a)
 );
 
-
-
+// Icon Category List
+$iconList:(
+    $brand,
+    $interfaces,
+    $shopping,
+    $arrows,
+    $player,
+    $editors,
+    $weather,
+    $emoji,
+    $payment,
+    $hand,
+    $accessibility,
+    $chart,
+    $browser,
+    $currency,
+    $gender,
+    $transportation,
+    $spinner,
+    $snowflake,
+    $shapes,
+);

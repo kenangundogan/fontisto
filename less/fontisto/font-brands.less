@@ -1,0 +1,24 @@
+// Font Brands
+@font-face{
+  font-family: @fi-font-name;
+  src: url('@{fi-font-path}fontisto/fontisto-brands.eot?v=@{fi-font-version}');
+  src: url('@{fi-font-path}fontisto/fontisto-brands.eot?#iefix&v=@{fi-font-version}') format("embedded-opentype"),
+  url('@{fi-font-path}fontisto/fontisto-brands.ttf?v=@{fi-font-version}') format("truetype"),
+  url('@{fi-font-path}fontisto/fontisto-brands.woff?v=@{fi-font-version}') format("woff"),
+  url('@{fi-font-path}fontisto/fontisto-brands.svg?v=@{fi-font-version}#fontisto') format("svg");
+}
+
+.@{fi-css-prefix}{
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: @fi-font-line-height;
+  font-family: @fi-font-name;
+  font-size: @fi-font-size;
+  font-size: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
