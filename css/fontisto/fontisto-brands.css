@@ -1,11 +1,11 @@
 /*!
- *  Fontisto 3.0.1 by @kenangundogan - http://fontisto.com - @fontisto
+ *  Fontisto-brands 3.0.1 by @kenangundogan - http://fontisto.com - @fontisto
  *  License - http://fontisto.com/license (CSS: MIT License)
  */
 @font-face {
   font-family: "fontisto";
-  src: url("../../fonts/fontisto/fontisto.eot?v=301");
-  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=301") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=301") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=301") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=301#fontisto") format("svg"); }
+  src: url("../../fonts/fontisto/fontisto-brands.eot?v=301");
+  src: url("../../fonts/fontisto/fontisto-brands.eot?#iefix&v=301") format("embedded-opentype"), url("../../fonts/fontisto/fontisto-brands.ttf?v=301") format("truetype"), url("../../fonts/fontisto/fontisto-brands.woff?v=301") format("woff"), url("../../fonts/fontisto/fontisto-brands.svg?v=301#fontisto") format("svg"); }
 
 .fi {
   display: inline-block;
@@ -1694,15 +1694,27 @@
   color: #fff; }
 
 .fi-spin {
+  -webkit-animation: fi-spin 2s infinite linear;
   animation: fi-spin 2s infinite linear; }
 
 .fi-pulse {
+  -webkit-animation: fi-spin 1s infinite steps(8);
   animation: fi-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
 
 @keyframes fi-spin {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
+    -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
 
 .fi-border {
@@ -1757,38 +1769,56 @@
 
 .fi-r-45 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
 .fi-r-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
 .fi-r-135 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
   transform: rotate(135deg); }
 
 .fi-r-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
 .fi-r-225 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
   transform: rotate(225deg); }
 
 .fi-r-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
   transform: rotate(270deg); }
 
 .fi-r-315 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
   transform: rotate(315deg); }
 
 .fi-f-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1); }
 
 .fi-f-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
   transform: scale(1, -1); }
 
 .fi-list {
@@ -1818,4 +1848,4 @@
   width: 1.28571em;
   text-align: center; }
 
-/*# sourceMappingURL=fontisto.css.map */
+/*# sourceMappingURL=fontisto-brands.css.map */

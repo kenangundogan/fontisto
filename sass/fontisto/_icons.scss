@@ -1,9 +1,13 @@
 /* fontisto icon list*/
 
-@each $icon-name, $icon-unicode in $icon-list{
-    .#{$fi-css-prefix}-#{$icon-name} {
-        &:before{
-            content: unicode($icon-unicode);
-        }
+@each $icon-category in $iconList{
+   @each $icon-name, $icon-unicode in $icon-category{
+        .#{$fi-css-prefix}-#{$icon-name} {
+            &:before{
+                content: unicode($icon-unicode);
+            }
+        } 
     } 
-}
+} 
+
+ 
