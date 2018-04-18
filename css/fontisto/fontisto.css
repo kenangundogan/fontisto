@@ -1,11 +1,11 @@
 /*!
- *  Fontisto 3.0.2 by @kenangundogan - http://fontisto.com - @fontisto
+ *  Fontisto 3.0.3 by @kenangundogan - http://fontisto.com - @fontisto
  *  License - http://fontisto.com/license (CSS: MIT License)
  */
 @font-face {
   font-family: "fontisto";
-  src: url("../../fonts/fontisto/fontisto.eot?v=302");
-  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=302") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=302") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=302") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=302#fontisto") format("svg"); }
+  src: url("../../fonts/fontisto/fontisto.eot?v=303");
+  src: url("../../fonts/fontisto/fontisto.eot?#iefix&v=303") format("embedded-opentype"), url("../../fonts/fontisto/fontisto.ttf?v=303") format("truetype"), url("../../fonts/fontisto/fontisto.woff?v=303") format("woff"), url("../../fonts/fontisto/fontisto.svg?v=303#fontisto") format("svg"); }
 
 .fi {
   display: inline-block;
@@ -1620,6 +1620,96 @@
 
 .fi-yacht:before {
   content: "\ea09"; }
+
+.fi-beach-slipper:before {
+  content: "\eb2b"; }
+
+.fi-bus-ticket:before {
+  content: "\eb2c"; }
+
+.fi-cocktail:before {
+  content: "\eb2d"; }
+
+.fi-compass-alt:before {
+  content: "\eb2e"; }
+
+.fi-direction-sign:before {
+  content: "\eb2f"; }
+
+.fi-do-not-disturb:before {
+  content: "\eb30"; }
+
+.fi-flotation-ring:before {
+  content: "\eb31"; }
+
+.fi-holiday-village:before {
+  content: "\eb32"; }
+
+.fi-hot-air-balloon:before {
+  content: "\eb33"; }
+
+.fi-hotel-alt:before {
+  content: "\eb34"; }
+
+.fi-hotel:before {
+  content: "\eb35"; }
+
+.fi-island:before {
+  content: "\eb36"; }
+
+.fi-money-symbol:before {
+  content: "\eb37"; }
+
+.fi-parasol:before {
+  content: "\eb38"; }
+
+.fi-passport-alt:before {
+  content: "\eb39"; }
+
+.fi-passport:before {
+  content: "\eb3a"; }
+
+.fi-photograph:before {
+  content: "\eb3b"; }
+
+.fi-plane-ticket:before {
+  content: "\eb3c"; }
+
+.fi-room:before {
+  content: "\eb3d"; }
+
+.fi-sait-boat:before {
+  content: "\eb3e"; }
+
+.fi-snorkel:before {
+  content: "\eb3f"; }
+
+.fi-suitcase-alt:before {
+  content: "\eb40"; }
+
+.fi-suitcase:before {
+  content: "\eb41"; }
+
+.fi-sun:before {
+  content: "\eb42"; }
+
+.fi-sunglasses-alt:before {
+  content: "\eb43"; }
+
+.fi-swimsuit:before {
+  content: "\eb44"; }
+
+.fi-tent:before {
+  content: "\eb45"; }
+
+.fi-ticket-alt:before {
+  content: "\eb46"; }
+
+.fi-train-ticket:before {
+  content: "\eb47"; }
+
+.fi-wallet:before {
+  content: "\eb48"; }
 
 .fi-circle-o-notch:before {
   content: "\e9f1"; }

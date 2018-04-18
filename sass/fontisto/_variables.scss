@@ -5,7 +5,7 @@ $fi-font-path:              "../../fonts/" !default;
 $fi-font-size:              14px !default; 
 $fi-font-size-int:          14;
 $fi-font-line-height:       1 !default;
-$fi-font-version:           "302" !default;
+$fi-font-version:           "303" !default;
 $fi-font-border-color:      #dedede !default; 
 $fi-font-color-inverse:     #fff !default;
 $fi-font-li-width:          (30em / 14) !default;
@@ -615,6 +615,40 @@ $transportation:(
     yacht: (\ea09)
 );
 
+// Travel
+$travel:(
+    beach-slipper: (\eb2b),
+    bus-ticket: (\eb2c),
+    cocktail: (\eb2d),
+    compass-alt: (\eb2e),
+    direction-sign: (\eb2f),
+    do-not-disturb: (\eb30),
+    flotation-ring: (\eb31),
+    holiday-village: (\eb32),
+    hot-air-balloon: (\eb33),
+    hotel-alt: (\eb34),
+    hotel: (\eb35),
+    island: (\eb36),
+    money-symbol: (\eb37),
+    parasol: (\eb38),
+    passport-alt: (\eb39),
+    passport: (\eb3a),
+    photograph: (\eb3b),
+    plane-ticket: (\eb3c),
+    room: (\eb3d),
+    sait-boat: (\eb3e),
+    snorkel: (\eb3f),
+    suitcase-alt: (\eb40),
+    suitcase: (\eb41),
+    sun: (\eb42),
+    sunglasses-alt: (\eb43),
+    swimsuit: (\eb44),
+    tent: (\eb45),
+    ticket-alt: (\eb46),
+    train-ticket: (\eb47),
+    wallet: (\eb48)
+);
+
 // Spinner
 $spinner:(
     circle-o-notch: (\e9f1),
@@ -667,6 +701,7 @@ $iconList:(
     $currency,
     $gender,
     $transportation,
+    $travel,
     $spinner,
     $snowflake,
     $shapes

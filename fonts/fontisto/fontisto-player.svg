@@ -7,7 +7,7 @@
 {
 	"fontFamily": "fontisto-player",
 	"majorVersion": 3,
-	"minorVersion": 1,
+	"minorVersion": 3,
 	"description": "fontisto, iconic font and css toolkit",
 	"copyright": "@kenangundogan",
 	"designer": "Kenan Gündoğan",
@@ -15,7 +15,7 @@
 	"license": "MIT",
 	"licenseURL": "https://opensource.org/licenses/mit-license.html",
 	"fontURL": "http://www.fontisto.com",
-	"version": "Version 3.1",
+	"version": "Version 3.3",
 	"fontId": "fontisto-player",
 	"psName": "fontisto-player",
 	"subFamily": "Regular",

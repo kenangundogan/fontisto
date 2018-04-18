@@ -18,7 +18,7 @@
 
 ## Fontisto (The iconic font and CSS toolkit)
 
-Fontisto is a full suite of 555+ pictographic icons for easy scalable vector graphics on websites,
+Fontisto is a full suite of 585+ pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Kenan Gündoğan](https://www.linkedin.com/in/kenangundogan).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontisto](http://twitter.com/fontisto).
@@ -179,6 +179,7 @@ Designed and built by @kenangundogan, @ulasderin and @mstfsnc
 - [x] Emoji (**completed**)
 - [x] Shopping (**completed**)
 - [x] Snow Flake (**completed**)
+- [x] Travel (**completed**)
 - [ ] Sports
 - [ ] Medical
 - [ ] Eat

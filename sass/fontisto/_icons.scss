@@ -76,6 +76,18 @@
     }  
 } 
 
+
+// fontisto travel icon
+@mixin fontisto-travel(){
+   @each $icon-name, $icon-unicode in $travel{
+        .#{$fi-css-prefix}-#{$icon-name} {
+            &:before{
+                content: unicode($icon-unicode);
+            }
+        } 
+    }  
+} 
+
  
 @if $font-name == "fontisto"{
     @include fontisto();
@@ -94,6 +106,9 @@
 }
 @else if $font-name == "fontisto-weather"{
     @include fontisto-weather();
+}
+@else if $font-name == "fontisto-travel"{
+    @include fontisto-travel();
 }
 @else{
     @include fontisto();
