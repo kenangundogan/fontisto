@@ -181,6 +181,6 @@ Designed and built by @kenangundogan, @ulasderin and @mstfsnc
 - [x] Snow Flake (**completed**)
 - [x] Travel (**completed**)
 - [ ] Sports
-- [ ] Medical
+- [x] Medical (**completed**)
 - [ ] Eat
 - [ ] Shapes
