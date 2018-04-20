@@ -1,0 +1,276 @@
+/*!
+ *  Fontisto-travel 3.0.4 by @kenangundogan - http://fontisto.com - @fontisto
+ *  License - http://fontisto.com/license (CSS: MIT License)
+ */
+@font-face {
+  font-family: "fontisto";
+  src: url("../../fonts/fontisto/fontisto-medical.eot?v=304");
+  src: url("../../fonts/fontisto/fontisto-medical.eot?#iefix&v=304") format("embedded-opentype"), url("../../fonts/fontisto/fontisto-medical.ttf?v=304") format("truetype"), url("../../fonts/fontisto/fontisto-medical.woff?v=304") format("woff"), url("../../fonts/fontisto/fontisto-medical.svg?v=304#fontisto") format("svg"); }
+
+.fi {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "fontisto";
+  font-size: 14px;
+  font-size: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* fontisto icon list*/
+.fi-aids:before {
+  content: "\eb49"; }
+
+.fi-ambulance:before {
+  content: "\eb4a"; }
+
+.fi-bandage:before {
+  content: "\eb4b"; }
+
+.fi-bed-patient:before {
+  content: "\eb4c"; }
+
+.fi-blood-drop:before {
+  content: "\eb4d"; }
+
+.fi-blood-test:before {
+  content: "\eb4e"; }
+
+.fi-blood:before {
+  content: "\eb4f"; }
+
+.fi-dna:before {
+  content: "\eb50"; }
+
+.fi-doctor:before {
+  content: "\eb51"; }
+
+.fi-drug-pack:before {
+  content: "\eb52"; }
+
+.fi-first-aid-alt:before {
+  content: "\eb53"; }
+
+.fi-heart-alt:before {
+  content: "\eb54"; }
+
+.fi-heartbeat-alt:before {
+  content: "\eb55"; }
+
+.fi-heartbeat:before {
+  content: "\eb56"; }
+
+.fi-helicopter-ambulance:before {
+  content: "\eb57"; }
+
+.fi-hospital:before {
+  content: "\eb58"; }
+
+.fi-injection-syringe:before {
+  content: "\eb59"; }
+
+.fi-laboratory:before {
+  content: "\eb5a"; }
+
+.fi-nurse:before {
+  content: "\eb5b"; }
+
+.fi-nursing-home:before {
+  content: "\eb5c"; }
+
+.fi-paralysis-disability:before {
+  content: "\eb5d"; }
+
+.fi-pills:before {
+  content: "\eb5e"; }
+
+.fi-prescription:before {
+  content: "\eb5f"; }
+
+.fi-pulse:before {
+  content: "\eb60"; }
+
+.fi-stethoscope:before {
+  content: "\eb61"; }
+
+.fi-surgical-knife:before {
+  content: "\eb62"; }
+
+.fi-tablets:before {
+  content: "\eb63"; }
+
+.fi-test-bottle:before {
+  content: "\eb64"; }
+
+.fi-test-tube-alt:before {
+  content: "\eb65"; }
+
+.fi-test-tube:before {
+  content: "\eb66"; }
+
+.fi-thermometer-alt:before {
+  content: "\eb67"; }
+
+.fi-inverse {
+  color: #fff; }
+
+.fi-spin {
+  -webkit-animation: fi-spin 2s infinite linear;
+  animation: fi-spin 2s infinite linear; }
+
+.fi-pulse {
+  -webkit-animation: fi-spin 1s infinite steps(8);
+  animation: fi-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes fi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+.fi-border {
+  position: relative;
+  z-index: 1;
+  width: 2.2em;
+  height: 2.2em;
+  line-height: 2em;
+  vertical-align: middle;
+  border: solid 2px #000; }
+  .fi-border.ellipse {
+    border-radius: 2.2em; }
+  .fi-border.curve {
+    border-radius: 0.4em; }
+  .fi-border.rectangle {
+    border-radius: 0em; }
+  .fi-border:before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: inherit; }
+
+.fi-stack {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 2.2em;
+  height: 2.2em;
+  line-height: 2.2em;
+  vertical-align: middle; }
+  .fi-stack.ellipse:after {
+    content: "\ea0c"; }
+  .fi-stack.curve:after {
+    content: "\ea0b"; }
+  .fi-stack.rectangle:after {
+    content: "\ea0d"; }
+  .fi-stack:after {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2em; }
+  .fi-stack:before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: inherit;
+    color: #fff; }
+
+.fi-r-45 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.fi-r-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.fi-r-135 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg); }
+
+.fi-r-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.fi-r-225 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg); }
+
+.fi-r-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.fi-r-315 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg); }
+
+.fi-f-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+.fi-f-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+.fi-list {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none; }
+  .fi-list > li {
+    position: relative; }
+    .fi-list > li .fi {
+      position: absolute;
+      top: 0.14286em;
+      left: -2.14286em;
+      width: 2.14286em;
+      text-align: center; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+.fi-fw {
+  width: 1.28571em;
+  text-align: center; }
+
+/*# sourceMappingURL=fontisto-medical.css.map */

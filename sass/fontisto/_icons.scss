@@ -88,6 +88,18 @@
     }  
 } 
 
+
+// fontisto medical icon
+@mixin fontisto-medical(){
+   @each $icon-name, $icon-unicode in $medical{
+        .#{$fi-css-prefix}-#{$icon-name} {
+            &:before{
+                content: unicode($icon-unicode);
+            }
+        } 
+    }  
+} 
+
  
 @if $font-name == "fontisto"{
     @include fontisto();
@@ -109,6 +121,9 @@
 }
 @else if $font-name == "fontisto-travel"{
     @include fontisto-travel();
+}
+@else if $font-name == "fontisto-medical"{
+    @include fontisto-medical();
 }
 @else{
     @include fontisto();

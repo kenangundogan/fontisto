@@ -7,7 +7,7 @@
 {
 	"fontFamily": "fontisto-brands",
 	"majorVersion": 3,
-	"minorVersion": 3,
+	"minorVersion": 4,
 	"description": "fontisto, iconic font and css toolkit",
 	"copyright": "@kenangundogan",
 	"designer": "Kenan Gündoğan",
@@ -15,7 +15,7 @@
 	"license": "MIT",
 	"licenseURL": "https://opensource.org/licenses/mit-license.html",
 	"fontURL": "http://www.fontisto.com",
-	"version": "Version 3.3",
+	"version": "Version 3.4",
 	"fontId": "fontisto-brands",
 	"psName": "fontisto-brands",
 	"subFamily": "Regular",
