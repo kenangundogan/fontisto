@@ -1,5 +1,5 @@
 /*!
- *  Fontisto-travel 3.0.4 by @kenangundogan - http://fontisto.com - @fontisto
+ *  Fontisto-medical 3.0.4 by @kenangundogan - http://fontisto.com - @fontisto
  *  License - http://fontisto.com/license (CSS: MIT License)
  */
 @font-face {
@@ -91,7 +91,7 @@
 .fi-prescription:before {
   content: "\eb5f"; }
 
-.fi-pulse:before {
+.fi-pulse-alt:before {
   content: "\eb60"; }
 
 .fi-stethoscope:before {
