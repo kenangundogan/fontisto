@@ -32,7 +32,7 @@ Get started at http://fontisto.com
 [![PHP version](https://badge.fury.io/ph/kenangundogan%2Ffontisto.svg)](https://badge.fury.io/ph/kenangundogan%2Ffontisto)
 [![Meteor Atmosphere](https://img.shields.io/badge/meteor-kenangundogan/fontisto-blue.svg)](https://atmospherejs.com/kenangundogan/fontisto)
 
-- [Download the latest release.](http://fontisto.com/fontisto-compiled.zip)
+- [Download the latest release.](https://codeload.github.com/kenangundogan/fontisto/zip/master)
 - Clone the repo: `git clone https://github.com/kenangundogan/fontisto.git`
 - Install with [npm](https://www.npmjs.com/package/fontisto): `npm install fontisto`
 - Install with [bower](https://bower.io): `bower install fontisto`
