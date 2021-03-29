@@ -109,7 +109,7 @@ Within the download you'll find the following directories and files, logically g
 
 
 ## Versioning
-Flexible Grid will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
+Fontisto Grid will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 ```
 <major>.<minor>.<patch>
 ```
